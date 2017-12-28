@@ -1,2 +1,17 @@
-# xojo-metro
-Metro UI for XOJO Web Apps
+# XOJO Metro
+
+This offering tries to demonstrate a possible way of building a Metro style UI website using XOJO (https://www.xojo.com).
+
+### Logon Page
+
+The logon page uses a WebImageView to display the background image, with some javascript to resize the image on the page.  So unfortunately it leaves something to be desired when the window is resized.
+
+![Logon Page](docs/LogonPage.png)
+
+#### Logon Panel
+
+Panel | Description
+------------ | -------------
+![Logon Panel](docs/Logon-No-Focus.png) | The panel provides two fields to collect the user input.  A field to enter the user id and a field to enter the password.  Plus of course a button to execute the logon action.
+![Logon Panel](docs/Logon-User-Field.png) | When hovering over the field the border changes from dark grey to black. When one clicks into the field a button appears on the right hand side to enable the user to clear the input field.
+![Logon Panel](docs/Logon-Password-Field.png) | As with the user input field, when one hovers over the field the dark grey border changes to black.  When one clicks into the field a button appears to enable one to access the user passwords and another to allow one to see the entered password.

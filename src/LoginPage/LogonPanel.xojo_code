@@ -1,34 +1,28 @@
 #tag WebPage
-Begin WebPage LoginPage
+Begin WebContainer LogonPanel
    Compatibility   =   ""
    Cursor          =   0
    Enabled         =   True
-   Height          =   742
+   Height          =   244
    HelpTag         =   ""
    HorizontalCenter=   0
-   ImplicitInstance=   True
    Index           =   -2147483648
-   IsImplicitInstance=   False
    Left            =   0
    LockBottom      =   False
    LockHorizontal  =   False
-   LockLeft        =   False
+   LockLeft        =   True
    LockRight       =   False
-   LockTop         =   False
+   LockTop         =   True
    LockVertical    =   False
-   MinHeight       =   400
-   MinWidth        =   600
-   Style           =   "None"
+   Style           =   "1846419455"
    TabOrder        =   0
-   Title           =   "#App.PageTitle"
    Top             =   0
    VerticalCenter  =   0
    Visible         =   True
-   Width           =   1082
+   Width           =   420
    ZIndex          =   1
    _DeclareLineRendered=   False
    _HorizontalPercent=   0.0
-   _ImplicitInstance=   False
    _IsEmbedded     =   False
    _Locked         =   False
    _NeedsRendering =   True
@@ -36,59 +30,30 @@ Begin WebPage LoginPage
    _OpenEventFired =   False
    _ShownEventFired=   False
    _VerticalPercent=   0.0
-   Begin WebImageView mBackground
-      AlignHorizontal =   0
-      AlignVertical   =   0
+   Begin CaptionBar mCaption
+      Caption         =   "Log InTo Metro"
       Cursor          =   0
       Enabled         =   True
-      Height          =   742
+      Height          =   53
       HelpTag         =   ""
       HorizontalCenter=   0
       Index           =   -2147483648
-      Left            =   0
-      LockBottom      =   True
+      Left            =   20
+      LockBottom      =   False
       LockedInPosition=   False
       LockHorizontal  =   False
       LockLeft        =   True
       LockRight       =   True
       LockTop         =   True
       LockVertical    =   False
-      Picture         =   2136621055
-      ProtectImage    =   True
-      Scope           =   0
-      Style           =   "-1"
-      TabOrder        =   -1
-      Top             =   0
-      URL             =   ""
-      VerticalCenter  =   0
-      Visible         =   True
-      Width           =   1082
-      ZIndex          =   1
-      _NeedsRendering =   True
-   End
-   Begin LogonPanel mLogonPanel
-      Cursor          =   0
-      Enabled         =   True
-      Height          =   244
-      HelpTag         =   ""
-      HorizontalCenter=   0
-      Index           =   -2147483648
-      Left            =   572
-      LockBottom      =   True
-      LockedInPosition=   False
-      LockHorizontal  =   False
-      LockLeft        =   False
-      LockRight       =   True
-      LockTop         =   False
-      LockVertical    =   False
-      Scope           =   0
+      Scope           =   2
       ScrollbarsVisible=   0
-      Style           =   "1846419455"
+      Style           =   "777646079"
       TabOrder        =   0
-      Top             =   409
+      Top             =   20
       VerticalCenter  =   0
       Visible         =   True
-      Width           =   420
+      Width           =   380
       ZIndex          =   1
       _DeclareLineRendered=   False
       _HorizontalPercent=   0.0
@@ -100,47 +65,174 @@ Begin WebPage LoginPage
       _ShownEventFired=   False
       _VerticalPercent=   0.0
    End
+   Begin WebImageView mUserImage
+      AlignHorizontal =   0
+      AlignVertical   =   0
+      Cursor          =   0
+      Enabled         =   True
+      Height          =   30
+      HelpTag         =   ""
+      HorizontalCenter=   0
+      Index           =   -2147483648
+      Left            =   20
+      LockBottom      =   False
+      LockedInPosition=   True
+      LockHorizontal  =   False
+      LockLeft        =   True
+      LockRight       =   False
+      LockTop         =   True
+      LockVertical    =   False
+      Picture         =   1358178303
+      ProtectImage    =   True
+      Scope           =   2
+      Style           =   "-1"
+      TabOrder        =   -1
+      Top             =   99
+      URL             =   ""
+      VerticalCenter  =   0
+      Visible         =   True
+      Width           =   30
+      ZIndex          =   1
+      _NeedsRendering =   True
+   End
+   Begin UserIdField mUserField
+      Cursor          =   3
+      Enabled         =   True
+      Height          =   30
+      HelpTag         =   ""
+      HorizontalCenter=   0
+      Index           =   -2147483648
+      Left            =   56
+      LockBottom      =   False
+      LockedInPosition=   False
+      LockHorizontal  =   False
+      LockLeft        =   True
+      LockRight       =   True
+      LockTop         =   True
+      LockVertical    =   False
+      Scope           =   2
+      ScrollbarsVisible=   0
+      Style           =   "-1"
+      TabOrder        =   1
+      Top             =   99
+      VerticalCenter  =   0
+      Visible         =   True
+      Width           =   344
+      ZIndex          =   1
+      _DeclareLineRendered=   False
+      _HorizontalPercent=   0.0
+      _IsEmbedded     =   False
+      _Locked         =   False
+      _NeedsRendering =   True
+      _OfficialControl=   False
+      _OpenEventFired =   False
+      _ShownEventFired=   False
+      _VerticalPercent=   0.0
+   End
+   Begin WebImageView mLockImage
+      AlignHorizontal =   0
+      AlignVertical   =   0
+      Cursor          =   0
+      Enabled         =   True
+      Height          =   30
+      HelpTag         =   ""
+      HorizontalCenter=   0
+      Index           =   -2147483648
+      Left            =   20
+      LockBottom      =   False
+      LockedInPosition=   True
+      LockHorizontal  =   False
+      LockLeft        =   True
+      LockRight       =   False
+      LockTop         =   True
+      LockVertical    =   False
+      Picture         =   1358772223
+      ProtectImage    =   True
+      Scope           =   2
+      Style           =   "-1"
+      TabOrder        =   -1
+      Top             =   152
+      URL             =   ""
+      VerticalCenter  =   0
+      Visible         =   True
+      Width           =   30
+      ZIndex          =   1
+      _NeedsRendering =   True
+   End
+   Begin PasswordField mPasswordField
+      Cursor          =   3
+      Enabled         =   True
+      Height          =   30
+      HelpTag         =   ""
+      HorizontalCenter=   0
+      Index           =   -2147483648
+      Left            =   56
+      LockBottom      =   False
+      LockedInPosition=   False
+      LockHorizontal  =   False
+      LockLeft        =   True
+      LockRight       =   True
+      LockTop         =   True
+      LockVertical    =   False
+      Scope           =   2
+      ScrollbarsVisible=   0
+      Style           =   "-1"
+      TabOrder        =   2
+      Top             =   152
+      VerticalCenter  =   0
+      Visible         =   True
+      Width           =   344
+      ZIndex          =   1
+      _DeclareLineRendered=   False
+      _HorizontalPercent=   0.0
+      _IsEmbedded     =   False
+      _Locked         =   False
+      _NeedsRendering =   True
+      _OfficialControl=   False
+      _OpenEventFired =   False
+      _ShownEventFired=   False
+      _VerticalPercent=   0.0
+   End
+   Begin WebButton mButton
+      AutoDisable     =   False
+      Caption         =   "Login To..."
+      Cursor          =   0
+      Enabled         =   True
+      Height          =   30
+      HelpTag         =   ""
+      HorizontalCenter=   0
+      Index           =   -2147483648
+      Left            =   201
+      LockBottom      =   True
+      LockedInPosition=   False
+      LockHorizontal  =   False
+      LockLeft        =   False
+      LockRight       =   True
+      LockTop         =   False
+      LockVertical    =   False
+      Scope           =   2
+      Style           =   "577888255"
+      TabOrder        =   3
+      Top             =   194
+      VerticalCenter  =   0
+      Visible         =   True
+      Width           =   199
+      ZIndex          =   1
+      _NeedsRendering =   True
+   End
 End
 #tag EndWebPage
 
 #tag WindowCode
-	#tag Method, Flags = &h21
-		Private Sub ResizeBackgroundImage()
-		  // Resize image to fit in page
-		  dim script as string
-		  
-		  script = "var elt = document.getElementById('" + mBackground.ControlID + "_image');" + EndOfLine + _
-		  "elt.style.left = '0px';" + EndOfLine + _
-		  "elt.style.top = '0px';" + EndOfLine + _
-		  "elt.style.marginTop = '0px';" + EndOfLine + _
-		  "elt.style.marginLeft = '0px';" + EndOfLine + _
-		  "elt.style.width = '" + str(mBackground.Width, "0") + "px';" + EndOfLine + _
-		  "elt.style.height = '" + str(mBackground.Height, "0") + "px';"
-		  
-		  ExecuteJavaScript(script)
+	#tag Event
+		Sub Open()
+		  Me.Style = LoginPanelStyle
 		End Sub
-	#tag EndMethod
+	#tag EndEvent
 
 
 #tag EndWindowCode
 
-#tag Events mBackground
-	#tag Event
-		Sub Open()
-		  ResizeBackgroundImage()
-		End Sub
-	#tag EndEvent
-	#tag Event
-		Sub Shown()
-		  ResizeBackgroundImage()
-		End Sub
-	#tag EndEvent
-	#tag Event
-		Sub Resized()
-		  ResizeBackgroundImage()
-		End Sub
-	#tag EndEvent
-#tag EndEvents
 #tag ViewBehavior
 	#tag ViewProperty
 		Name="Cursor"
@@ -176,6 +268,7 @@ End
 	#tag EndViewProperty
 	#tag ViewProperty
 		Name="Enabled"
+		Visible=true
 		Group="Behavior"
 		InitialValue="True"
 		Type="Boolean"
@@ -184,7 +277,7 @@ End
 		Name="Height"
 		Visible=true
 		Group="Behavior"
-		InitialValue="400"
+		InitialValue="300"
 		Type="Integer"
 	#tag EndViewProperty
 	#tag ViewProperty
@@ -201,74 +294,80 @@ End
 	#tag EndViewProperty
 	#tag ViewProperty
 		Name="Index"
+		Visible=true
 		Group="ID"
-		InitialValue="-2147483648 "
+		InitialValue="-2147483648"
 		Type="Integer"
 	#tag EndViewProperty
 	#tag ViewProperty
-		Name="IsImplicitInstance"
-		Group="Behavior"
-		Type="Boolean"
-	#tag EndViewProperty
-	#tag ViewProperty
 		Name="Left"
+		Visible=true
 		Group="Position"
 		InitialValue="0"
 		Type="Integer"
 	#tag EndViewProperty
 	#tag ViewProperty
 		Name="LockBottom"
+		Visible=true
 		Group="Behavior"
 		InitialValue="False"
 		Type="Boolean"
 	#tag EndViewProperty
 	#tag ViewProperty
 		Name="LockHorizontal"
-		Group="Behavior"
-		Type="Boolean"
-	#tag EndViewProperty
-	#tag ViewProperty
-		Name="LockLeft"
+		Visible=true
 		Group="Behavior"
 		InitialValue="False"
 		Type="Boolean"
 	#tag EndViewProperty
 	#tag ViewProperty
+		Name="LockLeft"
+		Visible=true
+		Group="Behavior"
+		InitialValue="True"
+		Type="Boolean"
+	#tag EndViewProperty
+	#tag ViewProperty
 		Name="LockRight"
+		Visible=true
 		Group="Behavior"
 		InitialValue="False"
 		Type="Boolean"
 	#tag EndViewProperty
 	#tag ViewProperty
 		Name="LockTop"
+		Visible=true
 		Group="Behavior"
-		InitialValue="False"
+		InitialValue="True"
 		Type="Boolean"
 	#tag EndViewProperty
 	#tag ViewProperty
 		Name="LockVertical"
+		Visible=true
 		Group="Behavior"
+		InitialValue="False"
 		Type="Boolean"
-	#tag EndViewProperty
-	#tag ViewProperty
-		Name="MinHeight"
-		Visible=true
-		Group="Behavior"
-		InitialValue="400"
-		Type="Integer"
-	#tag EndViewProperty
-	#tag ViewProperty
-		Name="MinWidth"
-		Visible=true
-		Group="Behavior"
-		InitialValue="600"
-		Type="Integer"
 	#tag EndViewProperty
 	#tag ViewProperty
 		Name="Name"
 		Visible=true
 		Group="ID"
 		Type="String"
+	#tag EndViewProperty
+	#tag ViewProperty
+		Name="ScrollbarsVisible"
+		Visible=true
+		Group="Behavior"
+		InitialValue="0"
+		Type="Integer"
+		EditorType="Enum"
+		#tag EnumValues
+			"0 - Automatic"
+			"1 - Always"
+			"2 - Never"
+			"3 - Vertical"
+			"4 - Horizontal"
+		#tag EndEnumValues
 	#tag EndViewProperty
 	#tag ViewProperty
 		Name="Super"
@@ -278,19 +377,14 @@ End
 	#tag EndViewProperty
 	#tag ViewProperty
 		Name="TabOrder"
+		Visible=true
 		Group="Behavior"
+		InitialValue="0"
 		Type="Integer"
 	#tag EndViewProperty
 	#tag ViewProperty
-		Name="Title"
-		Visible=true
-		Group="Behavior"
-		InitialValue="Untitled"
-		Type="String"
-		EditorType="MultiLineEditor"
-	#tag EndViewProperty
-	#tag ViewProperty
 		Name="Top"
+		Visible=true
 		Group="Position"
 		InitialValue="0"
 		Type="Integer"
@@ -302,6 +396,7 @@ End
 	#tag EndViewProperty
 	#tag ViewProperty
 		Name="Visible"
+		Visible=true
 		Group="Behavior"
 		InitialValue="True"
 		Type="Boolean"
@@ -310,7 +405,7 @@ End
 		Name="Width"
 		Visible=true
 		Group="Behavior"
-		InitialValue="600"
+		InitialValue="300"
 		Type="Integer"
 	#tag EndViewProperty
 	#tag ViewProperty
@@ -329,12 +424,6 @@ End
 		Name="_HorizontalPercent"
 		Group="Behavior"
 		Type="Double"
-	#tag EndViewProperty
-	#tag ViewProperty
-		Name="_ImplicitInstance"
-		Group="Behavior"
-		InitialValue="False"
-		Type="Boolean"
 	#tag EndViewProperty
 	#tag ViewProperty
 		Name="_IsEmbedded"
