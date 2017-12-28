@@ -55,11 +55,19 @@ Begin WebContainer MainMenu
       ToggledDisabledStyle=   "0"
       ToggledStyle    =   "0"
       Top             =   0
+      Vertical        =   False
       VerticalCenter  =   0
       Visible         =   True
       Width           =   900
       ZIndex          =   1
+      _DeclareLineRendered=   False
+      _HorizontalPercent=   0.0
+      _IsEmbedded     =   False
+      _Locked         =   False
       _NeedsRendering =   True
+      _OfficialControl=   False
+      _OpenEventFired =   False
+      _VerticalPercent=   0.0
    End
 End
 #tag EndWebPage
