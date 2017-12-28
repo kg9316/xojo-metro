@@ -1,0 +1,46 @@
+#tag MultiImage
+Image Settings_Black
+	#tag ImageRepresentation
+		SaveInfo = APHRcwECAQAAAAHYAAAAAAHYAAIAAAxNYWNpbnRvc2ggSEQAAAAAAAAAAAAAAAAAAADRsjbpSCsAAAQ8rGgVU2V0dGluZ3NfMjRfQmxhY2sucG5nAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABDyyHdZqoJoAAAAAAAAAAP////8AAAkgAAAAAAAAAAAAAAAAAAAABmltYWdlcwAQAAgAANGyGskAAAARAAgAANZqkooAAAABABgEPKxoBDyq/AN32qoAC6oGAAmbUAACmDkAAgBYTWFjaW50b3NoIEhEOlVzZXJzOgBqZG9vbGV5OgBEZXZlbG9wbWVudDoAcHJvamVjdHM6AG1ldHJvOgBpbWFnZXM6AFNldHRpbmdzXzI0X0JsYWNrLnBuZwAOACwAFQBTAGUAdAB0AGkAbgBnAHMAXwAyADQAXwBCAGwAYQBjAGsALgBwAG4AZwAPABoADABNAGEAYwBpAG4AdABvAHMAaAAgAEgARAASAEVVc2Vycy9qZG9vbGV5L0RldmVsb3BtZW50L3Byb2plY3RzL21ldHJvL2ltYWdlcy9TZXR0aW5nc18yNF9CbGFjay5wbmcAABMAAS8AABUAAgAO//8AAAAAAAAAAA==
+		FullPath = /Users/jdooley/Development/projects/metro/images/Settings_24_Black.png
+		PartialPath = ..\images\Settings_24_Black.png
+		#tag ImageSpecification
+			Comment = 
+			Device = 31
+			HSize = -1.00
+			Orientation = Any
+			Platform = 15
+			PPI = 72
+			VSize = -1.00
+		#tag EndImageSpecification
+	#tag EndImageRepresentation
+	#tag ImageRepresentation
+		SaveInfo = APHRcwECAQAAAAHYAAAAAAHYAAIAAAxNYWNpbnRvc2ggSEQAAAAAAAAAAAAAAAAAAADRsjbpSCsAAAQ8rGgVU2V0dGluZ3NfNDhfQmxhY2sucG5nAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABDyyH9ZqoNgAAAAAAAAAAP////8AAAkgAAAAAAAAAAAAAAAAAAAABmltYWdlcwAQAAgAANGyGskAAAARAAgAANZqksgAAAABABgEPKxoBDyq/AN32qoAC6oGAAmbUAACmDkAAgBYTWFjaW50b3NoIEhEOlVzZXJzOgBqZG9vbGV5OgBEZXZlbG9wbWVudDoAcHJvamVjdHM6AG1ldHJvOgBpbWFnZXM6AFNldHRpbmdzXzQ4X0JsYWNrLnBuZwAOACwAFQBTAGUAdAB0AGkAbgBnAHMAXwA0ADgAXwBCAGwAYQBjAGsALgBwAG4AZwAPABoADABNAGEAYwBpAG4AdABvAHMAaAAgAEgARAASAEVVc2Vycy9qZG9vbGV5L0RldmVsb3BtZW50L3Byb2plY3RzL21ldHJvL2ltYWdlcy9TZXR0aW5nc180OF9CbGFjay5wbmcAABMAAS8AABUAAgAO//8AAAAAAAAAAA==
+		FullPath = /Users/jdooley/Development/projects/metro/images/Settings_48_Black.png
+		PartialPath = ..\images\Settings_48_Black.png
+		#tag ImageSpecification
+			Comment = 
+			Device = 31
+			HSize = -1.00
+			Orientation = Any
+			Platform = 15
+			PPI = 144
+			VSize = -1.00
+		#tag EndImageSpecification
+	#tag EndImageRepresentation
+	#tag ImageRepresentation
+		SaveInfo = APHRcwECAQAAAAHYAAAAAAHYAAIAAAxNYWNpbnRvc2ggSEQAAAAAAAAAAAAAAAAAAADRsjbpSCsAAAQ8rGgVU2V0dGluZ3NfOTZfQmxhY2sucG5nAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABDyyIdZqoO0AAAAAAAAAAP////8AAAkgAAAAAAAAAAAAAAAAAAAABmltYWdlcwAQAAgAANGyGskAAAARAAgAANZqkt0AAAABABgEPKxoBDyq/AN32qoAC6oGAAmbUAACmDkAAgBYTWFjaW50b3NoIEhEOlVzZXJzOgBqZG9vbGV5OgBEZXZlbG9wbWVudDoAcHJvamVjdHM6AG1ldHJvOgBpbWFnZXM6AFNldHRpbmdzXzk2X0JsYWNrLnBuZwAOACwAFQBTAGUAdAB0AGkAbgBnAHMAXwA5ADYAXwBCAGwAYQBjAGsALgBwAG4AZwAPABoADABNAGEAYwBpAG4AdABvAHMAaAAgAEgARAASAEVVc2Vycy9qZG9vbGV5L0RldmVsb3BtZW50L3Byb2plY3RzL21ldHJvL2ltYWdlcy9TZXR0aW5nc185Nl9CbGFjay5wbmcAABMAAS8AABUAAgAO//8AAAAAAAAAAA==
+		FullPath = /Users/jdooley/Development/projects/metro/images/Settings_96_Black.png
+		PartialPath = ..\images\Settings_96_Black.png
+		#tag ImageSpecification
+			Comment = 
+			Device = 31
+			HSize = -1.00
+			Orientation = Any
+			Platform = 15
+			PPI = 216
+			VSize = -1.00
+		#tag EndImageSpecification
+	#tag EndImageRepresentation
+End Image
+#tag EndMultiImage

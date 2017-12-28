@@ -1,0 +1,46 @@
+#tag MultiImage
+Image All_Items_Black
+	#tag ImageRepresentation
+		SaveInfo = APHRcwECAQAAAAHcAAAAAAHcAAIAAAxNYWNpbnRvc2ggSEQAAAAAAAAAAAAAAAAAAADRsjbpSCsAAAQ8rGgWQWxsLUl0ZW1zLTI0LUJsYWNrLnBuZwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABDysb9Zqb4cAAAAAAAAAAP////8AAAkgAAAAAAAAAAAAAAAAAAAABmltYWdlcwAQAAgAANGyGskAAAARAAgAANZqYXcAAAABABgEPKxoBDyq/AN32qoAC6oGAAmbUAACmDkAAgBZTWFjaW50b3NoIEhEOlVzZXJzOgBqZG9vbGV5OgBEZXZlbG9wbWVudDoAcHJvamVjdHM6AG1ldHJvOgBpbWFnZXM6AEFsbC1JdGVtcy0yNC1CbGFjay5wbmcAAA4ALgAWAEEAbABsAC0ASQB0AGUAbQBzAC0AMgA0AC0AQgBsAGEAYwBrAC4AcABuAGcADwAaAAwATQBhAGMAaQBuAHQAbwBzAGgAIABIAEQAEgBGVXNlcnMvamRvb2xleS9EZXZlbG9wbWVudC9wcm9qZWN0cy9tZXRyby9pbWFnZXMvQWxsLUl0ZW1zLTI0LUJsYWNrLnBuZwATAAEvAAAVAAIADv//AAAAAAAAAAA=
+		FullPath = /Users/jdooley/Development/projects/metro/images/All-Items-24-Black.png
+		PartialPath = ..\images\All-Items-24-Black.png
+		#tag ImageSpecification
+			Comment = 
+			Device = 31
+			HSize = -1.00
+			Orientation = Any
+			Platform = 15
+			PPI = 72
+			VSize = -1.00
+		#tag EndImageSpecification
+	#tag EndImageRepresentation
+	#tag ImageRepresentation
+		SaveInfo = APHRcwECAQAAAAHcAAAAAAHcAAIAAAxNYWNpbnRvc2ggSEQAAAAAAAAAAAAAAAAAAADRsjbpSCsAAAQ8rGgWQWxsLUl0ZW1zLTQ4LUJsYWNrLnBuZwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABDyscdZqb3QAAAAAAAAAAP////8AAAkgAAAAAAAAAAAAAAAAAAAABmltYWdlcwAQAAgAANGyGskAAAARAAgAANZqYWQAAAABABgEPKxoBDyq/AN32qoAC6oGAAmbUAACmDkAAgBZTWFjaW50b3NoIEhEOlVzZXJzOgBqZG9vbGV5OgBEZXZlbG9wbWVudDoAcHJvamVjdHM6AG1ldHJvOgBpbWFnZXM6AEFsbC1JdGVtcy00OC1CbGFjay5wbmcAAA4ALgAWAEEAbABsAC0ASQB0AGUAbQBzAC0ANAA4AC0AQgBsAGEAYwBrAC4AcABuAGcADwAaAAwATQBhAGMAaQBuAHQAbwBzAGgAIABIAEQAEgBGVXNlcnMvamRvb2xleS9EZXZlbG9wbWVudC9wcm9qZWN0cy9tZXRyby9pbWFnZXMvQWxsLUl0ZW1zLTQ4LUJsYWNrLnBuZwATAAEvAAAVAAIADv//AAAAAAAAAAA=
+		FullPath = /Users/jdooley/Development/projects/metro/images/All-Items-48-Black.png
+		PartialPath = ..\images\All-Items-48-Black.png
+		#tag ImageSpecification
+			Comment = 
+			Device = 31
+			HSize = -1.00
+			Orientation = Any
+			Platform = 15
+			PPI = 144
+			VSize = -1.00
+		#tag EndImageSpecification
+	#tag EndImageRepresentation
+	#tag ImageRepresentation
+		SaveInfo = APHRcwECAQAAAAHcAAAAAAHcAAIAAAxNYWNpbnRvc2ggSEQAAAAAAAAAAAAAAAAAAADRsjbpSCsAAAQ8rGgWQWxsLUl0ZW1zLTk2LUJsYWNrLnBuZwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABDysc9Zqb0EAAAAAAAAAAP////8AAAkgAAAAAAAAAAAAAAAAAAAABmltYWdlcwAQAAgAANGyGskAAAARAAgAANZqYTEAAAABABgEPKxoBDyq/AN32qoAC6oGAAmbUAACmDkAAgBZTWFjaW50b3NoIEhEOlVzZXJzOgBqZG9vbGV5OgBEZXZlbG9wbWVudDoAcHJvamVjdHM6AG1ldHJvOgBpbWFnZXM6AEFsbC1JdGVtcy05Ni1CbGFjay5wbmcAAA4ALgAWAEEAbABsAC0ASQB0AGUAbQBzAC0AOQA2AC0AQgBsAGEAYwBrAC4AcABuAGcADwAaAAwATQBhAGMAaQBuAHQAbwBzAGgAIABIAEQAEgBGVXNlcnMvamRvb2xleS9EZXZlbG9wbWVudC9wcm9qZWN0cy9tZXRyby9pbWFnZXMvQWxsLUl0ZW1zLTk2LUJsYWNrLnBuZwATAAEvAAAVAAIADv//AAAAAAAAAAA=
+		FullPath = /Users/jdooley/Development/projects/metro/images/All-Items-96-Black.png
+		PartialPath = ..\images\All-Items-96-Black.png
+		#tag ImageSpecification
+			Comment = 
+			Device = 31
+			HSize = -1.00
+			Orientation = Any
+			Platform = 15
+			PPI = 216
+			VSize = -1.00
+		#tag EndImageSpecification
+	#tag EndImageRepresentation
+End Image
+#tag EndMultiImage

@@ -1,0 +1,46 @@
+#tag MultiImage
+Image Arrow_Last
+	#tag ImageRepresentation
+		SaveInfo = APHRcwECAQAAAAHIAAAAAAHIAAIAAAxNYWNpbnRvc2ggSEQAAAAAAAAAAAAAAAAAAADRsjbpSCsAAAQ8rGgRQXJyb3dfTGFzdF8yNC5wbmcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABDyx/NZqnVwAAAAAAAAAAP////8AAAkgAAAAAAAAAAAAAAAAAAAABmltYWdlcwAQAAgAANGyGskAAAARAAgAANZqj0wAAAABABgEPKxoBDyq/AN32qoAC6oGAAmbUAACmDkAAgBUTWFjaW50b3NoIEhEOlVzZXJzOgBqZG9vbGV5OgBEZXZlbG9wbWVudDoAcHJvamVjdHM6AG1ldHJvOgBpbWFnZXM6AEFycm93X0xhc3RfMjQucG5nAA4AJAARAEEAcgByAG8AdwBfAEwAYQBzAHQAXwAyADQALgBwAG4AZwAPABoADABNAGEAYwBpAG4AdABvAHMAaAAgAEgARAASAEFVc2Vycy9qZG9vbGV5L0RldmVsb3BtZW50L3Byb2plY3RzL21ldHJvL2ltYWdlcy9BcnJvd19MYXN0XzI0LnBuZwAAEwABLwAAFQACAA7//wAAAAAAAAAA
+		FullPath = /Users/jdooley/Development/projects/metro/images/Arrow_Last_24.png
+		PartialPath = ..\images\Arrow_Last_24.png
+		#tag ImageSpecification
+			Comment = 
+			Device = 31
+			HSize = -1.00
+			Orientation = Any
+			Platform = 15
+			PPI = 72
+			VSize = -1.00
+		#tag EndImageSpecification
+	#tag EndImageRepresentation
+	#tag ImageRepresentation
+		SaveInfo = APHRcwECAQAAAAHIAAAAAAHIAAIAAAxNYWNpbnRvc2ggSEQAAAAAAAAAAAAAAAAAAADRsjbpSCsAAAQ8rGgRQXJyb3dfTGFzdF80OC5wbmcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABDyx/dZqnTsAAAAAAAAAAP////8AAAkgAAAAAAAAAAAAAAAAAAAABmltYWdlcwAQAAgAANGyGskAAAARAAgAANZqjysAAAABABgEPKxoBDyq/AN32qoAC6oGAAmbUAACmDkAAgBUTWFjaW50b3NoIEhEOlVzZXJzOgBqZG9vbGV5OgBEZXZlbG9wbWVudDoAcHJvamVjdHM6AG1ldHJvOgBpbWFnZXM6AEFycm93X0xhc3RfNDgucG5nAA4AJAARAEEAcgByAG8AdwBfAEwAYQBzAHQAXwA0ADgALgBwAG4AZwAPABoADABNAGEAYwBpAG4AdABvAHMAaAAgAEgARAASAEFVc2Vycy9qZG9vbGV5L0RldmVsb3BtZW50L3Byb2plY3RzL21ldHJvL2ltYWdlcy9BcnJvd19MYXN0XzQ4LnBuZwAAEwABLwAAFQACAA7//wAAAAAAAAAA
+		FullPath = /Users/jdooley/Development/projects/metro/images/Arrow_Last_48.png
+		PartialPath = ..\images\Arrow_Last_48.png
+		#tag ImageSpecification
+			Comment = 
+			Device = 31
+			HSize = -1.00
+			Orientation = Any
+			Platform = 15
+			PPI = 144
+			VSize = -1.00
+		#tag EndImageSpecification
+	#tag EndImageRepresentation
+	#tag ImageRepresentation
+		SaveInfo = APHRcwECAQAAAAHIAAAAAAHIAAIAAAxNYWNpbnRvc2ggSEQAAAAAAAAAAAAAAAAAAADRsjbpSCsAAAQ8rGgRQXJyb3dfTGFzdF85Ni5wbmcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABDyx/tZqnSMAAAAAAAAAAP////8AAAkgAAAAAAAAAAAAAAAAAAAABmltYWdlcwAQAAgAANGyGskAAAARAAgAANZqjxMAAAABABgEPKxoBDyq/AN32qoAC6oGAAmbUAACmDkAAgBUTWFjaW50b3NoIEhEOlVzZXJzOgBqZG9vbGV5OgBEZXZlbG9wbWVudDoAcHJvamVjdHM6AG1ldHJvOgBpbWFnZXM6AEFycm93X0xhc3RfOTYucG5nAA4AJAARAEEAcgByAG8AdwBfAEwAYQBzAHQAXwA5ADYALgBwAG4AZwAPABoADABNAGEAYwBpAG4AdABvAHMAaAAgAEgARAASAEFVc2Vycy9qZG9vbGV5L0RldmVsb3BtZW50L3Byb2plY3RzL21ldHJvL2ltYWdlcy9BcnJvd19MYXN0Xzk2LnBuZwAAEwABLwAAFQACAA7//wAAAAAAAAAA
+		FullPath = /Users/jdooley/Development/projects/metro/images/Arrow_Last_96.png
+		PartialPath = ..\images\Arrow_Last_96.png
+		#tag ImageSpecification
+			Comment = 
+			Device = 31
+			HSize = -1.00
+			Orientation = Any
+			Platform = 15
+			PPI = 216
+			VSize = -1.00
+		#tag EndImageSpecification
+	#tag EndImageRepresentation
+End Image
+#tag EndMultiImage

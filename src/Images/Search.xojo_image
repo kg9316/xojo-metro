@@ -1,0 +1,46 @@
+#tag MultiImage
+Image Search
+	#tag ImageRepresentation
+		SaveInfo = APHRcwECAQAAAAG4AAAAAAG4AAIAAAxNYWNpbnRvc2ggSEQAAAAAAAAAAAAAAAAAAADRsjbpSCsAAAQ8rGgNU2VhcmNoXzI0LnBuZwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABDyyGtZqoEsAAAAAAAAAAP////8AAAkgAAAAAAAAAAAAAAAAAAAABmltYWdlcwAQAAgAANGyGskAAAARAAgAANZqkjsAAAABABgEPKxoBDyq/AN32qoAC6oGAAmbUAACmDkAAgBQTWFjaW50b3NoIEhEOlVzZXJzOgBqZG9vbGV5OgBEZXZlbG9wbWVudDoAcHJvamVjdHM6AG1ldHJvOgBpbWFnZXM6AFNlYXJjaF8yNC5wbmcADgAcAA0AUwBlAGEAcgBjAGgAXwAyADQALgBwAG4AZwAPABoADABNAGEAYwBpAG4AdABvAHMAaAAgAEgARAASAD1Vc2Vycy9qZG9vbGV5L0RldmVsb3BtZW50L3Byb2plY3RzL21ldHJvL2ltYWdlcy9TZWFyY2hfMjQucG5nAAATAAEvAAAVAAIADv//AAAAAAAAAAA=
+		FullPath = /Users/jdooley/Development/projects/metro/images/Search_24.png
+		PartialPath = ..\images\Search_24.png
+		#tag ImageSpecification
+			Comment = 
+			Device = 31
+			HSize = -1.00
+			Orientation = Any
+			Platform = 15
+			PPI = 72
+			VSize = -1.00
+		#tag EndImageSpecification
+	#tag EndImageRepresentation
+	#tag ImageRepresentation
+		SaveInfo = APHRcwECAQAAAAG4AAAAAAG4AAIAAAxNYWNpbnRvc2ggSEQAAAAAAAAAAAAAAAAAAADRsjbpSCsAAAQ8rGgNU2VhcmNoXzQ4LnBuZwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABDyyG9ZqoDwAAAAAAAAAAP////8AAAkgAAAAAAAAAAAAAAAAAAAABmltYWdlcwAQAAgAANGyGskAAAARAAgAANZqkiwAAAABABgEPKxoBDyq/AN32qoAC6oGAAmbUAACmDkAAgBQTWFjaW50b3NoIEhEOlVzZXJzOgBqZG9vbGV5OgBEZXZlbG9wbWVudDoAcHJvamVjdHM6AG1ldHJvOgBpbWFnZXM6AFNlYXJjaF80OC5wbmcADgAcAA0AUwBlAGEAcgBjAGgAXwA0ADgALgBwAG4AZwAPABoADABNAGEAYwBpAG4AdABvAHMAaAAgAEgARAASAD1Vc2Vycy9qZG9vbGV5L0RldmVsb3BtZW50L3Byb2plY3RzL21ldHJvL2ltYWdlcy9TZWFyY2hfNDgucG5nAAATAAEvAAAVAAIADv//AAAAAAAAAAA=
+		FullPath = /Users/jdooley/Development/projects/metro/images/Search_48.png
+		PartialPath = ..\images\Search_48.png
+		#tag ImageSpecification
+			Comment = 
+			Device = 31
+			HSize = -1.00
+			Orientation = Any
+			Platform = 15
+			PPI = 144
+			VSize = -1.00
+		#tag EndImageSpecification
+	#tag EndImageRepresentation
+	#tag ImageRepresentation
+		SaveInfo = APHRcwECAQAAAAG4AAAAAAG4AAIAAAxNYWNpbnRvc2ggSEQAAAAAAAAAAAAAAAAAAADRsjbpSCsAAAQ8rGgNU2VhcmNoXzk2LnBuZwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABDyyHNZqoDMAAAAAAAAAAP////8AAAkgAAAAAAAAAAAAAAAAAAAABmltYWdlcwAQAAgAANGyGskAAAARAAgAANZqkiMAAAABABgEPKxoBDyq/AN32qoAC6oGAAmbUAACmDkAAgBQTWFjaW50b3NoIEhEOlVzZXJzOgBqZG9vbGV5OgBEZXZlbG9wbWVudDoAcHJvamVjdHM6AG1ldHJvOgBpbWFnZXM6AFNlYXJjaF85Ni5wbmcADgAcAA0AUwBlAGEAcgBjAGgAXwA5ADYALgBwAG4AZwAPABoADABNAGEAYwBpAG4AdABvAHMAaAAgAEgARAASAD1Vc2Vycy9qZG9vbGV5L0RldmVsb3BtZW50L3Byb2plY3RzL21ldHJvL2ltYWdlcy9TZWFyY2hfOTYucG5nAAATAAEvAAAVAAIADv//AAAAAAAAAAA=
+		FullPath = /Users/jdooley/Development/projects/metro/images/Search_96.png
+		PartialPath = ..\images\Search_96.png
+		#tag ImageSpecification
+			Comment = 
+			Device = 31
+			HSize = -1.00
+			Orientation = Any
+			Platform = 15
+			PPI = 216
+			VSize = -1.00
+		#tag EndImageSpecification
+	#tag EndImageRepresentation
+End Image
+#tag EndMultiImage
