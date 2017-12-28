@@ -50,7 +50,7 @@ Begin WebContainer MainMenu
       LockTop         =   True
       LockVertical    =   False
       Scope           =   2
-      Style           =   "-1"
+      Style           =   "491126783"
       TabOrder        =   -1
       ToggledDisabledStyle=   "0"
       ToggledStyle    =   "0"
@@ -67,6 +67,13 @@ End
 #tag WindowCode
 #tag EndWindowCode
 
+#tag Events mToolbar
+	#tag Event
+		Sub Open()
+		  Me.Style = MenuBackgroundStyle
+		End Sub
+	#tag EndEvent
+#tag EndEvents
 #tag ViewBehavior
 	#tag ViewProperty
 		Name="Cursor"

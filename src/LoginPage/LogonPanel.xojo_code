@@ -233,6 +233,13 @@ End
 
 #tag EndWindowCode
 
+#tag Events mButton
+	#tag Event
+		Sub Action()
+		  MainPage.Show()
+		End Sub
+	#tag EndEvent
+#tag EndEvents
 #tag ViewBehavior
 	#tag ViewProperty
 		Name="Cursor"

@@ -18,7 +18,7 @@ Begin WebPage LoginPage
    LockVertical    =   False
    MinHeight       =   400
    MinWidth        =   600
-   Style           =   "None"
+   Style           =   "808081407"
    TabOrder        =   0
    Title           =   "#App.PageTitle"
    Top             =   0
