@@ -1,7 +1,7 @@
 #tag WebPage
-Begin WebContainer MainMenu
+Begin WebContainer BrandPanel
    Compatibility   =   ""
-   Cursor          =   2
+   Cursor          =   0
    Enabled         =   True
    Height          =   55
    HelpTag         =   ""
@@ -11,15 +11,15 @@ Begin WebContainer MainMenu
    LockBottom      =   False
    LockHorizontal  =   False
    LockLeft        =   True
-   LockRight       =   True
+   LockRight       =   False
    LockTop         =   True
    LockVertical    =   False
-   Style           =   "None"
+   Style           =   "420083711"
    TabOrder        =   0
    Top             =   0
    VerticalCenter  =   0
    Visible         =   True
-   Width           =   900
+   Width           =   150
    ZIndex          =   1
    _DeclareLineRendered=   False
    _HorizontalPercent=   0.0
@@ -30,18 +30,15 @@ Begin WebContainer MainMenu
    _OpenEventFired =   False
    _ShownEventFired=   False
    _VerticalPercent=   0.0
-   Begin WebToolbar mToolbar
-      ButtonDisabledStyle=   "1079474175"
-      ButtonStyle     =   "1079474175"
-      Cursor          =   2
+   Begin WebLabel mLabel
+      Cursor          =   1
       Enabled         =   True
-      Height          =   55
+      HasFocusRing    =   True
+      Height          =   42
       HelpTag         =   ""
       HorizontalCenter=   0
       Index           =   -2147483648
-      InitialValue    =   "4 WebToolbarContainer BrandPanel  -1 BrandPanel 150 0 1 1	0 WebToolbarButton btnDashboard RGFzaGJvYXJk -1 Select... 73 0 1 0	5 WebToolbarMenu mnuProject UHJvamVjdA== -1 Select... 53 0 1 0	0 WebToolbarButton btnSecurity U2VjdXJpdHk= -1 Select... 59 0 1 0	0 WebToolbarButton btnSystem U3lzdGVt -1 Select... 54 0 0 0	5 WebToolbarMenu mnuHelp SGVscA== -1 Select... 40 0 1 0	3 WebToolbarFlexibleSpace FlexibleSpace1  -1 Select... 0 0 1 1	4 WebToolbarContainer UserProfilePanel  -1 UserProfilePanel 200 0 1 1"
-      ItemStyle       =   "0"
-      Left            =   0
+      Left            =   2
       LockBottom      =   True
       LockedInPosition=   False
       LockHorizontal  =   False
@@ -49,25 +46,18 @@ Begin WebContainer MainMenu
       LockRight       =   True
       LockTop         =   True
       LockVertical    =   False
+      Multiline       =   False
       Scope           =   2
-      Style           =   "491126783"
-      TabOrder        =   -1
-      ToggledDisabledStyle=   "0"
-      ToggledStyle    =   "0"
-      Top             =   0
-      Vertical        =   False
+      Style           =   "883752959"
+      TabOrder        =   0
+      Text            =   "Metro UI"
+      TextAlign       =   0
+      Top             =   5
       VerticalCenter  =   0
       Visible         =   True
-      Width           =   900
+      Width           =   146
       ZIndex          =   1
-      _DeclareLineRendered=   False
-      _HorizontalPercent=   0.0
-      _IsEmbedded     =   False
-      _Locked         =   False
       _NeedsRendering =   True
-      _OfficialControl=   False
-      _OpenEventFired =   False
-      _VerticalPercent=   0.0
    End
 End
 #tag EndWebPage
@@ -75,34 +65,6 @@ End
 #tag WindowCode
 #tag EndWindowCode
 
-#tag Events mToolbar
-	#tag Event
-		Sub Open()
-		  Me.Style = MenuBackgroundStyle
-		  
-		  
-		  Dim myMenu As New WebMenuItem
-		  
-		  myMenu.Append(New WebMenuItem("New Project..."))
-		  myMenu.Append(New WebMenuItem("-"))
-		  myMenu.Append(New WebMenuItem("Project 1"))
-		  myMenu.Append(New WebMenuItem("Project 2"))
-		  myMenu.Append(New WebMenuItem("Project 3"))
-		  
-		  WebToolBarMenu(Me.ItemWithName("mnuProject")).Menu = myMenu
-		  
-		  myMenu = New WebMenuItem
-		  
-		  myMenu.Append(New WebMenuItem("ChatOn"))
-		  myMenu.Append(New WebMenuItem("Community Support"))
-		  myMenu.Append(New WebMenuItem("-"))
-		  myMenu.Append(New WebMenuItem("About"))
-		  
-		  WebToolBarMenu(Me.ItemWithName("mnuHelp")).Menu = myMenu
-		  
-		End Sub
-	#tag EndEvent
-#tag EndEvents
 #tag ViewBehavior
 	#tag ViewProperty
 		Name="Cursor"

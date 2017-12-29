@@ -8,6 +8,7 @@ Inherits WebStyle
 		border-bottom=1px solid 4390DFFF
 		border-right=1px solid 4390DFFF
 		text-color=FFFFFFFF
+		text-size=16px
 	#tag EndWebStyleStateGroup
 	#tag WebStyleStateGroup
 	#tag EndWebStyleStateGroup

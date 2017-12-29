@@ -1,8 +1,9 @@
 #tag WebStyle
-WebStyle LoginTitleStyle
+WebStyle LogonPanelTitleStyle
 Inherits WebStyle
 	#tag WebStyleStateGroup
-		misc-background=solid FFFFFFFF
+		text-size=32px
+		text-color=000000FF
 		border-bottom=1px solid 000000FF
 	#tag EndWebStyleStateGroup
 	#tag WebStyleStateGroup
@@ -11,6 +12,6 @@ Inherits WebStyle
 	#tag EndWebStyleStateGroup
 	#tag WebStyleStateGroup
 	#tag EndWebStyleStateGroup
-End WebStyle LoginTitleStyle
+End WebStyle LogonPanelTitleStyle
 #tag EndWebStyle
 

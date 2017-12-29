@@ -1,9 +1,9 @@
 #tag WebPage
-Begin WebContainer CaptionBar
+Begin WebContainer UserProfilePanel
    Compatibility   =   ""
    Cursor          =   0
    Enabled         =   True
-   Height          =   53
+   Height          =   55
    HelpTag         =   ""
    HorizontalCenter=   0
    Index           =   -2147483648
@@ -14,12 +14,12 @@ Begin WebContainer CaptionBar
    LockRight       =   False
    LockTop         =   True
    LockVertical    =   False
-   Style           =   "None"
+   Style           =   "1430538239"
    TabOrder        =   0
    Top             =   0
    VerticalCenter  =   0
    Visible         =   True
-   Width           =   300
+   Width           =   207
    ZIndex          =   1
    _DeclareLineRendered=   False
    _HorizontalPercent=   0.0
@@ -30,15 +30,45 @@ Begin WebContainer CaptionBar
    _OpenEventFired =   False
    _ShownEventFired=   False
    _VerticalPercent=   0.0
+   Begin WebImageView mGear
+      AlignHorizontal =   0
+      AlignVertical   =   0
+      Cursor          =   0
+      Enabled         =   True
+      Height          =   48
+      HelpTag         =   ""
+      HorizontalCenter=   0
+      Index           =   -2147483648
+      Left            =   4
+      LockBottom      =   False
+      LockedInPosition=   False
+      LockHorizontal  =   False
+      LockLeft        =   True
+      LockRight       =   False
+      LockTop         =   True
+      LockVertical    =   False
+      Picture         =   631746559
+      ProtectImage    =   True
+      Scope           =   2
+      Style           =   "-1"
+      TabOrder        =   -1
+      Top             =   0
+      URL             =   ""
+      VerticalCenter  =   0
+      Visible         =   True
+      Width           =   48
+      ZIndex          =   1
+      _NeedsRendering =   True
+   End
    Begin WebLabel mLabel
       Cursor          =   1
       Enabled         =   True
       HasFocusRing    =   True
-      Height          =   50
+      Height          =   44
       HelpTag         =   ""
       HorizontalCenter=   0
       Index           =   -2147483648
-      Left            =   1
+      Left            =   48
       LockBottom      =   True
       LockedInPosition=   False
       LockHorizontal  =   False
@@ -47,15 +77,15 @@ Begin WebContainer CaptionBar
       LockTop         =   True
       LockVertical    =   False
       Multiline       =   False
-      Scope           =   0
-      Style           =   "1083027455"
+      Scope           =   2
+      Style           =   "1056378879"
       TabOrder        =   0
-      Text            =   "Untitled"
+      Text            =   "Jim Browne"
       TextAlign       =   0
-      Top             =   1
+      Top             =   6
       VerticalCenter  =   0
       Visible         =   True
-      Width           =   298
+      Width           =   139
       ZIndex          =   1
       _NeedsRendering =   True
    End
@@ -63,31 +93,9 @@ End
 #tag EndWebPage
 
 #tag WindowCode
-	#tag ComputedProperty, Flags = &h0
-		#tag Getter
-			Get
-			  Return mLabel.Text
-			End Get
-		#tag EndGetter
-		#tag Setter
-			Set
-			  mLabel.Text = Value
-			End Set
-		#tag EndSetter
-		Caption As String
-	#tag EndComputedProperty
-
-
 #tag EndWindowCode
 
 #tag ViewBehavior
-	#tag ViewProperty
-		Name="Caption"
-		Visible=true
-		Group="Contents"
-		Type="String"
-		EditorType="MultiLineEditor"
-	#tag EndViewProperty
 	#tag ViewProperty
 		Name="Cursor"
 		Visible=true

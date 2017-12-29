@@ -1,16 +1,16 @@
 #tag WebStyle
-WebStyle MenuBackgroundStyle
+WebStyle Lato_16
 Inherits WebStyle
 	#tag WebStyleStateGroup
-		misc-background=solid 1B6EAEFF
-	#tag EndWebStyleStateGroup
-	#tag WebStyleStateGroup
-		misc-background=solid 1B6EAEFF
+		text-size=16px
+		text-color=000000FF
 	#tag EndWebStyleStateGroup
 	#tag WebStyleStateGroup
 	#tag EndWebStyleStateGroup
 	#tag WebStyleStateGroup
 	#tag EndWebStyleStateGroup
-End WebStyle MenuBackgroundStyle
+	#tag WebStyleStateGroup
+	#tag EndWebStyleStateGroup
+End WebStyle Lato_16
 #tag EndWebStyle
 

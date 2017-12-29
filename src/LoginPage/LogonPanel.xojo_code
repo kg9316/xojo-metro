@@ -30,41 +30,6 @@ Begin WebContainer LogonPanel
    _OpenEventFired =   False
    _ShownEventFired=   False
    _VerticalPercent=   0.0
-   Begin CaptionBar mCaption
-      Caption         =   "Log InTo Metro"
-      Cursor          =   0
-      Enabled         =   True
-      Height          =   53
-      HelpTag         =   ""
-      HorizontalCenter=   0
-      Index           =   -2147483648
-      Left            =   20
-      LockBottom      =   False
-      LockedInPosition=   False
-      LockHorizontal  =   False
-      LockLeft        =   True
-      LockRight       =   True
-      LockTop         =   True
-      LockVertical    =   False
-      Scope           =   2
-      ScrollbarsVisible=   0
-      Style           =   "777646079"
-      TabOrder        =   0
-      Top             =   20
-      VerticalCenter  =   0
-      Visible         =   True
-      Width           =   380
-      ZIndex          =   1
-      _DeclareLineRendered=   False
-      _HorizontalPercent=   0.0
-      _IsEmbedded     =   False
-      _Locked         =   False
-      _NeedsRendering =   True
-      _OfficialControl=   False
-      _OpenEventFired =   False
-      _ShownEventFired=   False
-      _VerticalPercent=   0.0
-   End
    Begin WebImageView mUserImage
       AlignHorizontal =   0
       AlignVertical   =   0
@@ -93,7 +58,14 @@ Begin WebContainer LogonPanel
       Visible         =   True
       Width           =   30
       ZIndex          =   1
+      _DeclareLineRendered=   False
+      _HorizontalPercent=   0.0
+      _IsEmbedded     =   False
+      _Locked         =   False
       _NeedsRendering =   True
+      _OfficialControl=   False
+      _OpenEventFired =   False
+      _VerticalPercent=   0.0
    End
    Begin UserIdField mUserField
       Cursor          =   3
@@ -157,7 +129,14 @@ Begin WebContainer LogonPanel
       Visible         =   True
       Width           =   30
       ZIndex          =   1
+      _DeclareLineRendered=   False
+      _HorizontalPercent=   0.0
+      _IsEmbedded     =   False
+      _Locked         =   False
       _NeedsRendering =   True
+      _OfficialControl=   False
+      _OpenEventFired =   False
+      _VerticalPercent=   0.0
    End
    Begin PasswordField mPasswordField
       Cursor          =   3
@@ -217,6 +196,42 @@ Begin WebContainer LogonPanel
       VerticalCenter  =   0
       Visible         =   True
       Width           =   199
+      ZIndex          =   1
+      _DeclareLineRendered=   False
+      _HorizontalPercent=   0.0
+      _IsEmbedded     =   False
+      _Locked         =   False
+      _NeedsRendering =   True
+      _OfficialControl=   False
+      _OpenEventFired =   False
+      _VerticalPercent=   0.0
+   End
+   Begin WebLabel lblTitle
+      Cursor          =   1
+      Enabled         =   True
+      HasFocusRing    =   True
+      Height          =   67
+      HelpTag         =   ""
+      HorizontalCenter=   0
+      Index           =   -2147483648
+      Left            =   20
+      LockBottom      =   False
+      LockedInPosition=   False
+      LockHorizontal  =   False
+      LockLeft        =   True
+      LockRight       =   False
+      LockTop         =   True
+      LockVertical    =   False
+      Multiline       =   False
+      Scope           =   2
+      Style           =   "1525598207"
+      TabOrder        =   4
+      Text            =   "Logon to Metro"
+      TextAlign       =   0
+      Top             =   5
+      VerticalCenter  =   0
+      Visible         =   True
+      Width           =   380
       ZIndex          =   1
       _NeedsRendering =   True
    End
