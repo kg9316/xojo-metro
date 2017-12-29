@@ -3,7 +3,7 @@ Begin WebContainer Sidebar
    Compatibility   =   ""
    Cursor          =   0
    Enabled         =   True
-   Height          =   300
+   Height          =   496
    HelpTag         =   ""
    HorizontalCenter=   0
    Index           =   -2147483648
@@ -19,7 +19,7 @@ Begin WebContainer Sidebar
    Top             =   0
    VerticalCenter  =   0
    Visible         =   True
-   Width           =   300
+   Width           =   250
    ZIndex          =   1
    _DeclareLineRendered=   False
    _HorizontalPercent=   0.0
@@ -30,12 +30,366 @@ Begin WebContainer Sidebar
    _OpenEventFired =   False
    _ShownEventFired=   False
    _VerticalPercent=   0.0
+   Begin SidebarItem AllItemsOption
+      Cursor          =   0
+      Enabled         =   True
+      Height          =   55
+      HelpTag         =   ""
+      HorizontalCenter=   0
+      Index           =   -2147483648
+      Left            =   0
+      LockBottom      =   False
+      LockedInPosition=   False
+      LockHorizontal  =   False
+      LockLeft        =   True
+      LockRight       =   True
+      LockTop         =   True
+      LockVertical    =   False
+      Scope           =   0
+      ScrollbarsVisible=   0
+      Style           =   "0"
+      TabOrder        =   0
+      Top             =   0
+      VerticalCenter  =   0
+      Visible         =   True
+      Width           =   250
+      ZIndex          =   1
+      _DeclareLineRendered=   False
+      _HorizontalPercent=   0.0
+      _IsEmbedded     =   False
+      _Locked         =   False
+      _NeedsRendering =   True
+      _OfficialControl=   False
+      _OpenEventFired =   False
+      _ShownEventFired=   False
+      _VerticalPercent=   0.0
+   End
+   Begin SidebarItem WebsitesOption
+      Cursor          =   0
+      Enabled         =   True
+      Height          =   55
+      HelpTag         =   ""
+      HorizontalCenter=   0
+      Index           =   -2147483648
+      Left            =   0
+      LockBottom      =   False
+      LockedInPosition=   False
+      LockHorizontal  =   False
+      LockLeft        =   True
+      LockRight       =   True
+      LockTop         =   True
+      LockVertical    =   False
+      Scope           =   0
+      ScrollbarsVisible=   0
+      Style           =   "0"
+      TabOrder        =   1
+      Top             =   55
+      VerticalCenter  =   0
+      Visible         =   True
+      Width           =   250
+      ZIndex          =   1
+      _DeclareLineRendered=   False
+      _HorizontalPercent=   0.0
+      _IsEmbedded     =   False
+      _Locked         =   False
+      _NeedsRendering =   True
+      _OfficialControl=   False
+      _OpenEventFired =   False
+      _ShownEventFired=   False
+      _VerticalPercent=   0.0
+   End
+   Begin SidebarItem MachinesOption
+      Cursor          =   0
+      Enabled         =   True
+      Height          =   55
+      HelpTag         =   ""
+      HorizontalCenter=   0
+      Index           =   -2147483648
+      Left            =   0
+      LockBottom      =   False
+      LockedInPosition=   False
+      LockHorizontal  =   False
+      LockLeft        =   True
+      LockRight       =   True
+      LockTop         =   True
+      LockVertical    =   False
+      Scope           =   0
+      ScrollbarsVisible=   0
+      Style           =   "-1"
+      TabOrder        =   2
+      Top             =   110
+      VerticalCenter  =   0
+      Visible         =   True
+      Width           =   250
+      ZIndex          =   1
+      _DeclareLineRendered=   False
+      _HorizontalPercent=   0.0
+      _IsEmbedded     =   False
+      _Locked         =   False
+      _NeedsRendering =   True
+      _OfficialControl=   False
+      _OpenEventFired =   False
+      _ShownEventFired=   False
+      _VerticalPercent=   0.0
+   End
+   Begin SidebarItem CloudServicesOption
+      Cursor          =   0
+      Enabled         =   True
+      Height          =   55
+      HelpTag         =   ""
+      HorizontalCenter=   0
+      Index           =   -2147483648
+      Left            =   0
+      LockBottom      =   False
+      LockedInPosition=   False
+      LockHorizontal  =   False
+      LockLeft        =   True
+      LockRight       =   True
+      LockTop         =   True
+      LockVertical    =   False
+      Scope           =   0
+      ScrollbarsVisible=   0
+      Style           =   "-1"
+      TabOrder        =   3
+      Top             =   165
+      VerticalCenter  =   0
+      Visible         =   True
+      Width           =   250
+      ZIndex          =   1
+      _DeclareLineRendered=   False
+      _HorizontalPercent=   0.0
+      _IsEmbedded     =   False
+      _Locked         =   False
+      _NeedsRendering =   True
+      _OfficialControl=   False
+      _OpenEventFired =   False
+      _ShownEventFired=   False
+      _VerticalPercent=   0.0
+   End
+   Begin SidebarItem SqlDatabasesOption
+      Cursor          =   0
+      Enabled         =   True
+      Height          =   55
+      HelpTag         =   ""
+      HorizontalCenter=   0
+      Index           =   -2147483648
+      Left            =   0
+      LockBottom      =   False
+      LockedInPosition=   False
+      LockHorizontal  =   False
+      LockLeft        =   True
+      LockRight       =   True
+      LockTop         =   True
+      LockVertical    =   False
+      Scope           =   0
+      ScrollbarsVisible=   0
+      Style           =   "-1"
+      TabOrder        =   4
+      Top             =   220
+      VerticalCenter  =   0
+      Visible         =   True
+      Width           =   250
+      ZIndex          =   1
+      _DeclareLineRendered=   False
+      _HorizontalPercent=   0.0
+      _IsEmbedded     =   False
+      _Locked         =   False
+      _NeedsRendering =   True
+      _OfficialControl=   False
+      _OpenEventFired =   False
+      _ShownEventFired=   False
+      _VerticalPercent=   0.0
+   End
+   Begin SidebarItem AutomationOption
+      Cursor          =   0
+      Enabled         =   True
+      Height          =   55
+      HelpTag         =   ""
+      HorizontalCenter=   0
+      Index           =   -2147483648
+      Left            =   0
+      LockBottom      =   False
+      LockedInPosition=   False
+      LockHorizontal  =   False
+      LockLeft        =   True
+      LockRight       =   True
+      LockTop         =   True
+      LockVertical    =   False
+      Scope           =   0
+      ScrollbarsVisible=   0
+      Style           =   "-1"
+      TabOrder        =   5
+      Top             =   275
+      VerticalCenter  =   0
+      Visible         =   True
+      Width           =   250
+      ZIndex          =   1
+      _DeclareLineRendered=   False
+      _HorizontalPercent=   0.0
+      _IsEmbedded     =   False
+      _Locked         =   False
+      _NeedsRendering =   True
+      _OfficialControl=   False
+      _OpenEventFired =   False
+      _ShownEventFired=   False
+      _VerticalPercent=   0.0
+   End
 End
 #tag EndWebPage
 
 #tag WindowCode
+	#tag Method, Flags = &h0
+		Sub SetCurrentItem(NewItem As SidebarItem)
+		  If Self.mCurrentItem <> Nil Then
+		    Self.mCurrentItem.SetActive(False)
+		  End If
+		  
+		  mCurrentItem = NewItem
+		  
+		End Sub
+	#tag EndMethod
+
+
+	#tag Hook, Flags = &h0
+		Event OnPageChange(Name As String, Tag As String)
+	#tag EndHook
+
+
+	#tag Property, Flags = &h21
+		Private mCurrentItem As SidebarItem
+	#tag EndProperty
+
+
+	#tag Constant, Name = kAutomationPage, Type = String, Dynamic = False, Default = \"AutomationPage", Scope = Public
+	#tag EndConstant
+
+	#tag Constant, Name = kCloudServicesPage, Type = String, Dynamic = False, Default = \"CloudServicesPage", Scope = Public
+	#tag EndConstant
+
+	#tag Constant, Name = kHomePage, Type = String, Dynamic = False, Default = \"HomePage", Scope = Public
+	#tag EndConstant
+
+	#tag Constant, Name = kMachinesPage, Type = String, Dynamic = False, Default = \"MachinesPage", Scope = Public
+	#tag EndConstant
+
+	#tag Constant, Name = kSqlDatabasesPage, Type = String, Dynamic = False, Default = \"SqlDatabasesPage", Scope = Public
+	#tag EndConstant
+
+	#tag Constant, Name = kWebsitesPage, Type = String, Dynamic = False, Default = \"WebsitesPage", Scope = Public
+	#tag EndConstant
+
+
 #tag EndWindowCode
 
+#tag Events AllItemsOption
+	#tag Event
+		Sub Open()
+		  Me.Style = SidebarItemStyle
+		  Me.Caption.Text = "All Items"
+		  
+		  Me.Image.Picture = All_Items_White
+		  Me.ActiveImage = All_Items_Black
+		  Me.InactiveImage = All_Items_White
+		End Sub
+	#tag EndEvent
+	#tag Event
+		Sub Action(ItemName As String, Tag As String)
+		  SetCurrentItem(Me)
+		  OnPageChange(kHomePage, Me.Tag)
+		  
+		End Sub
+	#tag EndEvent
+#tag EndEvents
+#tag Events WebsitesOption
+	#tag Event
+		Sub Open()
+		  Me.Style = SidebarItemStyle
+		  Me.Caption.Text = "Websites"
+		  
+		  Me.Image.Picture = Web_White
+		  Me.ActiveImage = Database_Black
+		  Me.InactiveImage = Database_White
+		End Sub
+	#tag EndEvent
+	#tag Event
+		Sub Action(ItemName As String, Tag As String)
+		  SetCurrentItem(Me)
+		  OnPageChange(kWebsitesPage, Me.Tag)
+		End Sub
+	#tag EndEvent
+#tag EndEvents
+#tag Events MachinesOption
+	#tag Event
+		Sub Open()
+		  Me.Style = SidebarItemStyle
+		  Me.Caption.Text = "Virtual Machines"
+		  
+		  Me.Image.Picture = Van_White
+		  Me.ActiveImage = Van_Black
+		  Me.InactiveImage = Van_White
+		End Sub
+	#tag EndEvent
+	#tag Event
+		Sub Action(ItemName As String, Tag As String)
+		  SetCurrentItem(Me)
+		  OnPageChange(kMachinesPage, Me.Tag)
+		End Sub
+	#tag EndEvent
+#tag EndEvents
+#tag Events CloudServicesOption
+	#tag Event
+		Sub Open()
+		  Me.Style = SidebarItemStyle
+		  Me.Caption.Text = "Cloud Services"
+		  
+		  Me.Image.Picture = Cloud_White
+		  Me.ActiveImage = Cloud_Black
+		  Me.InactiveImage = Cloud_White
+		End Sub
+	#tag EndEvent
+	#tag Event
+		Sub Action(ItemName As String, Tag As String)
+		  SetCurrentItem(Me)
+		  OnPageChange(kCloudServicesPage, Me.Tag)
+		End Sub
+	#tag EndEvent
+#tag EndEvents
+#tag Events SqlDatabasesOption
+	#tag Event
+		Sub Open()
+		  Me.Style = SidebarItemStyle
+		  Me.Caption.Text = "SQL Databases"
+		  
+		  Me.Image.Picture = Database_White
+		  Me.ActiveImage = Database_Black
+		  Me.InactiveImage = Database_White
+		End Sub
+	#tag EndEvent
+	#tag Event
+		Sub Action(ItemName As String, Tag As String)
+		  SetCurrentItem(Me)
+		  OnPageChange(kSqlDatabasesPage, Me.Tag)
+		End Sub
+	#tag EndEvent
+#tag EndEvents
+#tag Events AutomationOption
+	#tag Event
+		Sub Open()
+		  Me.Style = SidebarItemStyle
+		  Me.Caption.Text = "Automation"
+		  
+		  Me.Image.Picture = Gears_White
+		  Me.ActiveImage = Gears_Black
+		  Me.InactiveImage = Gears_White
+		End Sub
+	#tag EndEvent
+	#tag Event
+		Sub Action(ItemName As String, Tag As String)
+		  SetCurrentItem(Me)
+		  OnPageChange(kAutomationPage, Me.Tag)
+		End Sub
+	#tag EndEvent
+#tag EndEvents
 #tag ViewBehavior
 	#tag ViewProperty
 		Name="Cursor"
