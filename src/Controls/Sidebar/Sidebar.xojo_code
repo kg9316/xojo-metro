@@ -238,18 +238,6 @@ End
 #tag EndWebPage
 
 #tag WindowCode
-	#tag Method, Flags = &h0
-		Sub SetCurrentItem(NewItem As SidebarItem)
-		  If Self.mCurrentItem <> Nil Then
-		    Self.mCurrentItem.SetActive(False)
-		  End If
-		  
-		  mCurrentItem = NewItem
-		  
-		End Sub
-	#tag EndMethod
-
-
 	#tag Hook, Flags = &h0
 		Event OnPageChange(Name As String, Tag As String)
 	#tag EndHook
@@ -294,7 +282,6 @@ End
 	#tag EndEvent
 	#tag Event
 		Sub Action(ItemName As String, Tag As String)
-		  SetCurrentItem(Me)
 		  OnPageChange(kHomePage, Me.Tag)
 		  
 		End Sub
@@ -313,7 +300,6 @@ End
 	#tag EndEvent
 	#tag Event
 		Sub Action(ItemName As String, Tag As String)
-		  SetCurrentItem(Me)
 		  OnPageChange(kWebsitesPage, Me.Tag)
 		End Sub
 	#tag EndEvent
@@ -331,7 +317,6 @@ End
 	#tag EndEvent
 	#tag Event
 		Sub Action(ItemName As String, Tag As String)
-		  SetCurrentItem(Me)
 		  OnPageChange(kMachinesPage, Me.Tag)
 		End Sub
 	#tag EndEvent
@@ -349,7 +334,6 @@ End
 	#tag EndEvent
 	#tag Event
 		Sub Action(ItemName As String, Tag As String)
-		  SetCurrentItem(Me)
 		  OnPageChange(kCloudServicesPage, Me.Tag)
 		End Sub
 	#tag EndEvent
@@ -367,7 +351,6 @@ End
 	#tag EndEvent
 	#tag Event
 		Sub Action(ItemName As String, Tag As String)
-		  SetCurrentItem(Me)
 		  OnPageChange(kSqlDatabasesPage, Me.Tag)
 		End Sub
 	#tag EndEvent
@@ -385,7 +368,6 @@ End
 	#tag EndEvent
 	#tag Event
 		Sub Action(ItemName As String, Tag As String)
-		  SetCurrentItem(Me)
 		  OnPageChange(kAutomationPage, Me.Tag)
 		End Sub
 	#tag EndEvent

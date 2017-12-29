@@ -3,7 +3,7 @@ Begin WebPage MainPage
    Compatibility   =   ""
    Cursor          =   0
    Enabled         =   True
-   Height          =   400
+   Height          =   754
    HelpTag         =   ""
    HorizontalCenter=   0
    ImplicitInstance=   True
@@ -24,7 +24,7 @@ Begin WebPage MainPage
    Top             =   0
    VerticalCenter  =   0
    Visible         =   True
-   Width           =   600
+   Width           =   1192
    ZIndex          =   1
    _DeclareLineRendered=   False
    _HorizontalPercent=   0.0
@@ -58,7 +58,7 @@ Begin WebPage MainPage
       Top             =   0
       VerticalCenter  =   0
       Visible         =   True
-      Width           =   600
+      Width           =   1192
       ZIndex          =   1
       _DeclareLineRendered=   False
       _HorizontalPercent=   0.0
@@ -73,7 +73,7 @@ Begin WebPage MainPage
    Begin Sidebar mSidebar
       Cursor          =   0
       Enabled         =   True
-      Height          =   345
+      Height          =   699
       HelpTag         =   ""
       HorizontalCenter=   0
       Index           =   -2147483648
@@ -104,6 +104,35 @@ Begin WebPage MainPage
       _ShownEventFired=   False
       _VerticalPercent=   0.0
    End
+   Begin WebLabel lblPageTitle
+      Cursor          =   1
+      Enabled         =   True
+      HasFocusRing    =   True
+      Height          =   67
+      HelpTag         =   ""
+      HorizontalCenter=   0
+      Index           =   -2147483648
+      Left            =   262
+      LockBottom      =   False
+      LockedInPosition=   False
+      LockHorizontal  =   False
+      LockLeft        =   True
+      LockRight       =   True
+      LockTop         =   True
+      LockVertical    =   False
+      Multiline       =   False
+      Scope           =   0
+      Style           =   "1829988351"
+      TabOrder        =   2
+      Text            =   "All Items"
+      TextAlign       =   0
+      Top             =   67
+      VerticalCenter  =   0
+      Visible         =   True
+      Width           =   910
+      ZIndex          =   1
+      _NeedsRendering =   True
+   End
 End
 #tag EndWebPage
 
@@ -114,7 +143,25 @@ End
 	#tag Event
 		Sub Open()
 		  Me.AllItemsOption.SetActive(True)
-		  Me.SetCurrentItem(Me.AllItemsOption)
+		  
+		End Sub
+	#tag EndEvent
+	#tag Event
+		Sub OnPageChange(Name As String, Tag As String)
+		  Select Case Name
+		  Case Sidebar.kHomePage
+		    MainPage.Show()
+		  Case Sidebar.kAutomationPage
+		    AutomationPage.Show()
+		  Case Sidebar.kCloudServicesPage
+		    CloudServicesPage.Show()
+		  Case Sidebar.kMachinesPage
+		    MachinesPage.Show()
+		  Case Sidebar.kSqlDatabasesPage
+		    SqlDatabasesPage.Show()
+		  Case Sidebar.kWebsitesPage
+		    WebsitesPage.Show()
+		  End Select
 		End Sub
 	#tag EndEvent
 #tag EndEvents

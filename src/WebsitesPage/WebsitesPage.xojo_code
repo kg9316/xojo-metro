@@ -1,28 +1,34 @@
 #tag WebPage
-Begin WebContainer SidebarItem
+Begin WebPage WebsitesPage
    Compatibility   =   ""
    Cursor          =   0
    Enabled         =   True
-   Height          =   55
+   Height          =   754
    HelpTag         =   ""
    HorizontalCenter=   0
+   ImplicitInstance=   True
    Index           =   -2147483648
+   IsImplicitInstance=   False
    Left            =   0
    LockBottom      =   False
    LockHorizontal  =   False
-   LockLeft        =   True
-   LockRight       =   True
-   LockTop         =   True
+   LockLeft        =   False
+   LockRight       =   False
+   LockTop         =   False
    LockVertical    =   False
-   Style           =   "1009895423"
+   MinHeight       =   400
+   MinWidth        =   600
+   Style           =   "808081407"
    TabOrder        =   0
+   Title           =   "#App.PageTitle"
    Top             =   0
    VerticalCenter  =   0
    Visible         =   True
-   Width           =   250
+   Width           =   1192
    ZIndex          =   1
    _DeclareLineRendered=   False
    _HorizontalPercent=   0.0
+   _ImplicitInstance=   False
    _IsEmbedded     =   False
    _Locked         =   False
    _NeedsRendering =   True
@@ -30,147 +36,142 @@ Begin WebContainer SidebarItem
    _OpenEventFired =   False
    _ShownEventFired=   False
    _VerticalPercent=   0.0
-   Begin WebImageView mImage
-      AlignHorizontal =   0
-      AlignVertical   =   0
+   Begin MainMenu mMenu
       Cursor          =   0
       Enabled         =   True
-      Height          =   48
+      Height          =   55
       HelpTag         =   ""
       HorizontalCenter=   0
       Index           =   -2147483648
-      Left            =   4
+      Left            =   0
+      LockBottom      =   False
+      LockedInPosition=   False
+      LockHorizontal  =   False
+      LockLeft        =   True
+      LockRight       =   True
+      LockTop         =   True
+      LockVertical    =   False
+      Scope           =   2
+      ScrollbarsVisible=   0
+      Style           =   "0"
+      TabOrder        =   0
+      Top             =   0
+      VerticalCenter  =   0
+      Visible         =   True
+      Width           =   1192
+      ZIndex          =   1
+      _DeclareLineRendered=   False
+      _HorizontalPercent=   0.0
+      _IsEmbedded     =   False
+      _Locked         =   False
+      _NeedsRendering =   True
+      _OfficialControl=   False
+      _OpenEventFired =   False
+      _ShownEventFired=   False
+      _VerticalPercent=   0.0
+   End
+   Begin Sidebar mSidebar
+      Cursor          =   0
+      Enabled         =   True
+      Height          =   699
+      HelpTag         =   ""
+      HorizontalCenter=   0
+      Index           =   -2147483648
+      Left            =   0
       LockBottom      =   True
-      LockedInPosition=   True
+      LockedInPosition=   False
       LockHorizontal  =   False
       LockLeft        =   True
       LockRight       =   False
       LockTop         =   True
       LockVertical    =   False
-      Picture         =   0
-      ProtectImage    =   True
       Scope           =   2
-      Style           =   "-1"
-      TabOrder        =   -1
-      Top             =   4
-      URL             =   ""
+      ScrollbarsVisible=   0
+      Style           =   "1778722815"
+      TabOrder        =   1
+      Top             =   55
       VerticalCenter  =   0
       Visible         =   True
-      Width           =   48
+      Width           =   250
       ZIndex          =   1
+      _DeclareLineRendered=   False
+      _HorizontalPercent=   0.0
+      _IsEmbedded     =   False
+      _Locked         =   False
       _NeedsRendering =   True
+      _OfficialControl=   False
+      _OpenEventFired =   False
+      _ShownEventFired=   False
+      _VerticalPercent=   0.0
    End
-   Begin WebLabel mTitle
+   Begin WebLabel lblPageTitle
       Cursor          =   1
       Enabled         =   True
       HasFocusRing    =   True
-      Height          =   44
+      Height          =   67
       HelpTag         =   ""
       HorizontalCenter=   0
       Index           =   -2147483648
-      Left            =   60
-      LockBottom      =   True
-      LockedInPosition=   True
+      Left            =   262
+      LockBottom      =   False
+      LockedInPosition=   False
       LockHorizontal  =   False
       LockLeft        =   True
       LockRight       =   True
       LockTop         =   True
       LockVertical    =   False
       Multiline       =   False
-      Scope           =   2
-      Style           =   "2134435839"
-      TabOrder        =   0
-      Text            =   "Untitled"
+      Scope           =   0
+      Style           =   "1829988351"
+      TabOrder        =   2
+      Text            =   "Websites"
       TextAlign       =   0
-      Top             =   4
+      Top             =   67
       VerticalCenter  =   0
       Visible         =   True
-      Width           =   186
+      Width           =   910
       ZIndex          =   1
+      _DeclareLineRendered=   False
+      _HorizontalPercent=   0.0
+      _IsEmbedded     =   False
+      _Locked         =   False
       _NeedsRendering =   True
+      _OfficialControl=   False
+      _OpenEventFired =   False
+      _VerticalPercent=   0.0
    End
 End
 #tag EndWebPage
 
 #tag WindowCode
-	#tag Event
-		Sub MouseUp(X As Integer, Y As Integer, Details As REALbasic.MouseEvent)
-		  Action(Self.Name, Self.Tag)
-		End Sub
-	#tag EndEvent
-
-
-	#tag Method, Flags = &h0
-		Sub SetActive(State As Boolean)
-		  If State Then
-		    Self.Style = SidebarItemActiveStyle
-		    Self.Caption.Style = Lato_Black_20
-		    
-		    If ActiveImage <> Nil Then
-		      Self.Image.Picture = ActiveImage
-		    End If
-		  Else
-		    Self.Style = SidebarItemStyle
-		    Self.Caption.Style = Lato_White_20
-		    
-		    If InactiveImage <> Nil Then
-		      Self.Image.Picture = InactiveImage
-		    End If
-		  End If
-		End Sub
-	#tag EndMethod
-
-
-	#tag Hook, Flags = &h0
-		Event Action(ItemName As String, Tag As String)
-	#tag EndHook
-
-	#tag Hook, Flags = &h0
-		Event OnActiveImage() As Picture
-	#tag EndHook
-
-
-	#tag Property, Flags = &h0
-		ActiveImage As Picture
-	#tag EndProperty
-
-	#tag ComputedProperty, Flags = &h0
-		#tag Getter
-			Get
-			  return mTitle
-			  
-			End Get
-		#tag EndGetter
-		Caption As WebLabel
-	#tag EndComputedProperty
-
-	#tag ComputedProperty, Flags = &h0
-		#tag Getter
-			Get
-			  Return mImage
-			  
-			End Get
-		#tag EndGetter
-		Image As WebImageView
-	#tag EndComputedProperty
-
-	#tag Property, Flags = &h0
-		InactiveImage As Picture
-	#tag EndProperty
-
-	#tag Property, Flags = &h0
-		Tag As String
-	#tag EndProperty
-
-
 #tag EndWindowCode
 
+#tag Events mSidebar
+	#tag Event
+		Sub Open()
+		  Me.WebsitesOption.SetActive(True)
+		End Sub
+	#tag EndEvent
+	#tag Event
+		Sub OnPageChange(Name As String, Tag As String)
+		  Select Case Name
+		  Case Sidebar.kHomePage
+		    MainPage.Show()
+		  Case Sidebar.kAutomationPage
+		    AutomationPage.Show()
+		  Case Sidebar.kCloudServicesPage
+		    CloudServicesPage.Show()
+		  Case Sidebar.kMachinesPage
+		    MachinesPage.Show()
+		  Case Sidebar.kSqlDatabasesPage
+		    SqlDatabasesPage.Show()
+		  Case Sidebar.kWebsitesPage
+		    WebsitesPage.Show()
+		  End Select
+		End Sub
+	#tag EndEvent
+#tag EndEvents
 #tag ViewBehavior
-	#tag ViewProperty
-		Name="ActiveImage"
-		Group="Behavior"
-		Type="Picture"
-	#tag EndViewProperty
 	#tag ViewProperty
 		Name="Cursor"
 		Visible=true
@@ -205,7 +206,6 @@ End
 	#tag EndViewProperty
 	#tag ViewProperty
 		Name="Enabled"
-		Visible=true
 		Group="Behavior"
 		InitialValue="True"
 		Type="Boolean"
@@ -214,7 +214,7 @@ End
 		Name="Height"
 		Visible=true
 		Group="Behavior"
-		InitialValue="300"
+		InitialValue="400"
 		Type="Integer"
 	#tag EndViewProperty
 	#tag ViewProperty
@@ -230,86 +230,75 @@ End
 		Type="Integer"
 	#tag EndViewProperty
 	#tag ViewProperty
-		Name="InactiveImage"
-		Group="Behavior"
-		Type="Picture"
-	#tag EndViewProperty
-	#tag ViewProperty
 		Name="Index"
-		Visible=true
 		Group="ID"
-		InitialValue="-2147483648"
+		InitialValue="-2147483648 "
 		Type="Integer"
 	#tag EndViewProperty
 	#tag ViewProperty
+		Name="IsImplicitInstance"
+		Group="Behavior"
+		Type="Boolean"
+	#tag EndViewProperty
+	#tag ViewProperty
 		Name="Left"
-		Visible=true
 		Group="Position"
 		InitialValue="0"
 		Type="Integer"
 	#tag EndViewProperty
 	#tag ViewProperty
 		Name="LockBottom"
-		Visible=true
 		Group="Behavior"
 		InitialValue="False"
 		Type="Boolean"
 	#tag EndViewProperty
 	#tag ViewProperty
 		Name="LockHorizontal"
-		Visible=true
+		Group="Behavior"
+		Type="Boolean"
+	#tag EndViewProperty
+	#tag ViewProperty
+		Name="LockLeft"
 		Group="Behavior"
 		InitialValue="False"
 		Type="Boolean"
 	#tag EndViewProperty
 	#tag ViewProperty
-		Name="LockLeft"
-		Visible=true
-		Group="Behavior"
-		InitialValue="True"
-		Type="Boolean"
-	#tag EndViewProperty
-	#tag ViewProperty
 		Name="LockRight"
-		Visible=true
 		Group="Behavior"
 		InitialValue="False"
 		Type="Boolean"
 	#tag EndViewProperty
 	#tag ViewProperty
 		Name="LockTop"
-		Visible=true
 		Group="Behavior"
-		InitialValue="True"
+		InitialValue="False"
 		Type="Boolean"
 	#tag EndViewProperty
 	#tag ViewProperty
 		Name="LockVertical"
+		Group="Behavior"
+		Type="Boolean"
+	#tag EndViewProperty
+	#tag ViewProperty
+		Name="MinHeight"
 		Visible=true
 		Group="Behavior"
-		InitialValue="False"
-		Type="Boolean"
+		InitialValue="400"
+		Type="Integer"
+	#tag EndViewProperty
+	#tag ViewProperty
+		Name="MinWidth"
+		Visible=true
+		Group="Behavior"
+		InitialValue="600"
+		Type="Integer"
 	#tag EndViewProperty
 	#tag ViewProperty
 		Name="Name"
 		Visible=true
 		Group="ID"
 		Type="String"
-	#tag EndViewProperty
-	#tag ViewProperty
-		Name="ScrollbarsVisible"
-		Visible=true
-		Group="Behavior"
-		InitialValue="0"
-		Type="Integer"
-		EditorType="Enum"
-		#tag EnumValues
-			"0 - Automatic"
-			"1 - Always"
-			"2 - Never"
-			"3 - Vertical"
-			"4 - Horizontal"
-		#tag EndEnumValues
 	#tag EndViewProperty
 	#tag ViewProperty
 		Name="Super"
@@ -319,20 +308,19 @@ End
 	#tag EndViewProperty
 	#tag ViewProperty
 		Name="TabOrder"
-		Visible=true
 		Group="Behavior"
-		InitialValue="0"
 		Type="Integer"
 	#tag EndViewProperty
 	#tag ViewProperty
-		Name="Tag"
+		Name="Title"
+		Visible=true
 		Group="Behavior"
+		InitialValue="Untitled"
 		Type="String"
 		EditorType="MultiLineEditor"
 	#tag EndViewProperty
 	#tag ViewProperty
 		Name="Top"
-		Visible=true
 		Group="Position"
 		InitialValue="0"
 		Type="Integer"
@@ -344,7 +332,6 @@ End
 	#tag EndViewProperty
 	#tag ViewProperty
 		Name="Visible"
-		Visible=true
 		Group="Behavior"
 		InitialValue="True"
 		Type="Boolean"
@@ -353,7 +340,7 @@ End
 		Name="Width"
 		Visible=true
 		Group="Behavior"
-		InitialValue="300"
+		InitialValue="600"
 		Type="Integer"
 	#tag EndViewProperty
 	#tag ViewProperty
@@ -372,6 +359,12 @@ End
 		Name="_HorizontalPercent"
 		Group="Behavior"
 		Type="Double"
+	#tag EndViewProperty
+	#tag ViewProperty
+		Name="_ImplicitInstance"
+		Group="Behavior"
+		InitialValue="False"
+		Type="Boolean"
 	#tag EndViewProperty
 	#tag ViewProperty
 		Name="_IsEmbedded"
