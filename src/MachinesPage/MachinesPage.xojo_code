@@ -140,6 +140,150 @@ Begin WebPage MachinesPage
       _OpenEventFired =   False
       _VerticalPercent=   0.0
    End
+   Begin WebButton btnCreate
+      AutoDisable     =   False
+      Caption         =   "Create..."
+      Cursor          =   0
+      Enabled         =   True
+      Height          =   30
+      HelpTag         =   ""
+      HorizontalCenter=   0
+      Index           =   -2147483648
+      Left            =   262
+      LockBottom      =   False
+      LockedInPosition=   False
+      LockHorizontal  =   False
+      LockLeft        =   True
+      LockRight       =   False
+      LockTop         =   True
+      LockVertical    =   False
+      Scope           =   2
+      Style           =   "1504069631"
+      TabOrder        =   3
+      Top             =   164
+      VerticalCenter  =   0
+      Visible         =   True
+      Width           =   150
+      ZIndex          =   1
+      _NeedsRendering =   True
+   End
+   Begin WebButton btnStart
+      AutoDisable     =   False
+      Caption         =   "Start"
+      Cursor          =   0
+      Enabled         =   True
+      Height          =   30
+      HelpTag         =   ""
+      HorizontalCenter=   0
+      Index           =   -2147483648
+      Left            =   424
+      LockBottom      =   False
+      LockedInPosition=   False
+      LockHorizontal  =   False
+      LockLeft        =   True
+      LockRight       =   False
+      LockTop         =   True
+      LockVertical    =   False
+      Scope           =   2
+      Style           =   "1571520511"
+      TabOrder        =   4
+      Top             =   164
+      VerticalCenter  =   0
+      Visible         =   True
+      Width           =   150
+      ZIndex          =   1
+      _NeedsRendering =   True
+   End
+   Begin WebButton btnRestart
+      AutoDisable     =   False
+      Caption         =   "Restart"
+      Cursor          =   0
+      Enabled         =   True
+      Height          =   30
+      HelpTag         =   ""
+      HorizontalCenter=   0
+      Index           =   -2147483648
+      Left            =   586
+      LockBottom      =   False
+      LockedInPosition=   False
+      LockHorizontal  =   False
+      LockLeft        =   True
+      LockRight       =   False
+      LockTop         =   True
+      LockVertical    =   False
+      Scope           =   2
+      Style           =   "612771839"
+      TabOrder        =   5
+      Top             =   164
+      VerticalCenter  =   0
+      Visible         =   True
+      Width           =   150
+      ZIndex          =   1
+      _NeedsRendering =   True
+   End
+   Begin WebButton btnStop
+      AutoDisable     =   False
+      Caption         =   "Stop all machines"
+      Cursor          =   0
+      Enabled         =   True
+      Height          =   30
+      HelpTag         =   ""
+      HorizontalCenter=   0
+      Index           =   -2147483648
+      Left            =   748
+      LockBottom      =   False
+      LockedInPosition=   False
+      LockHorizontal  =   False
+      LockLeft        =   True
+      LockRight       =   False
+      LockTop         =   True
+      LockVertical    =   False
+      Scope           =   2
+      Style           =   "145874943"
+      TabOrder        =   6
+      Top             =   164
+      VerticalCenter  =   0
+      Visible         =   True
+      Width           =   200
+      ZIndex          =   1
+      _NeedsRendering =   True
+   End
+   Begin WebListBox mListbox
+      AlternateRowColor=   &cEEEEEE00
+      ColumnCount     =   5
+      ColumnWidths    =   "50,150,250,*,170"
+      Cursor          =   0
+      Enabled         =   True
+      HasHeading      =   True
+      HeaderStyle     =   "1101070335"
+      Height          =   528
+      HelpTag         =   ""
+      HorizontalCenter=   0
+      Index           =   -2147483648
+      InitialValue    =   ""
+      Left            =   262
+      ListIndex       =   -1
+      LockBottom      =   True
+      LockedInPosition=   False
+      LockHorizontal  =   False
+      LockLeft        =   True
+      LockRight       =   True
+      LockTop         =   True
+      LockVertical    =   False
+      MinimumRowHeight=   22
+      Multiline       =   False
+      PrimaryRowColor =   &cFFFFFF00
+      Scope           =   2
+      SelectionStyle  =   "1154822143"
+      Style           =   "1159852031"
+      TabOrder        =   -1
+      Top             =   206
+      VerticalCenter  =   0
+      Visible         =   True
+      Width           =   910
+      ZIndex          =   1
+      _NeedsRendering =   True
+   End
 End
 #tag EndWebPage
 
@@ -169,6 +313,40 @@ End
 		  Case Sidebar.kWebsitesPage
 		    WebsitesPage.Show()
 		  End Select
+		End Sub
+	#tag EndEvent
+#tag EndEvents
+#tag Events mListbox
+	#tag Event
+		Sub Open()
+		  Me.Heading(0) = ""
+		  Me.Heading(1) = "ID"
+		  Me.Heading(2) = "Machine Name"
+		  Me.Heading(3) = "Address"
+		  Me.Heading(4) = "Status"
+		  
+		  Me.AddRow(&u2612, "1238769045", "Machine Number 17", "machine17.cloudservice.aws.co.uk")
+		  Me.AddRow(&u2610, "12387742041", "Machine Number 18", "machine18.cloudservice.aws.co.uk")
+		  Me.AddRow(&u2612, "7238769045", "Machine Number 34", "machine34.cloudservice.aws.co.uk")
+		  Me.AddRow(&u2612, "6238769045", "Machine Number 45", "machine45.cloudservice.aws.co.uk")
+		  Me.AddRow(&u2612, "8238769045", "Machine Number 21", "machine21.cloudservice.aws.co.uk")
+		  Me.AddRow(&u2610, "44387742041", "Machine Number 36", "machine36.cloudservice.aws.co.uk")
+		  Me.AddRow(&u2610, "56387742041", "Machine Number 09", "machine09.cloudservice.aws.co.uk")
+		  
+		  Me.ColumnStyle(0) = ListboxCheckboxCellStyle
+		  
+		  Me.CellPicture(0, 4) = Check_Mark_Green
+		  Me.CellPicture(1, 4) = Check_Mark_Green
+		  Me.CellPicture(2, 4) = Check_Mark_Green
+		  Me.CellPicture(3, 4) = Box_Red
+		  Me.CellPicture(4, 4) = Check_Mark_Green
+		  Me.CellPicture(5, 4) = Check_Mark_Green
+		  Me.CellPicture(6, 4) = Box_Black
+		  
+		  Me.ColumnStyle(1) = ListboxCellStyle
+		  Me.ColumnStyle(2) = ListboxCellStyle
+		  Me.ColumnStyle(3) = ListboxCellStyle
+		  
 		End Sub
 	#tag EndEvent
 #tag EndEvents
