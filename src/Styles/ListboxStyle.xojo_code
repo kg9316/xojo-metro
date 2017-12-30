@@ -7,7 +7,7 @@ Inherits WebStyle
 		border-left=1px solid 999999FF
 		border-bottom=1px solid 999999FF
 		border-right=1px solid 999999FF
-		text-size=19px
+		text-size=18px
 		text-color=333333FF
 	#tag EndWebStyleStateGroup
 	#tag WebStyleStateGroup

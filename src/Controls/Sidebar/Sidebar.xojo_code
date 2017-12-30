@@ -31,11 +31,13 @@ Begin WebContainer Sidebar
    _ShownEventFired=   False
    _VerticalPercent=   0.0
    Begin SidebarItem AllItemsOption
+      ActiveImage     =   0
       Cursor          =   0
       Enabled         =   True
       Height          =   55
       HelpTag         =   ""
       HorizontalCenter=   0
+      InactiveImage   =   0
       Index           =   -2147483648
       Left            =   0
       LockBottom      =   False
@@ -49,6 +51,7 @@ Begin WebContainer Sidebar
       ScrollbarsVisible=   0
       Style           =   "0"
       TabOrder        =   0
+      Tag             =   ""
       Top             =   0
       VerticalCenter  =   0
       Visible         =   True
@@ -65,11 +68,13 @@ Begin WebContainer Sidebar
       _VerticalPercent=   0.0
    End
    Begin SidebarItem WebsitesOption
+      ActiveImage     =   0
       Cursor          =   0
       Enabled         =   True
       Height          =   55
       HelpTag         =   ""
       HorizontalCenter=   0
+      InactiveImage   =   0
       Index           =   -2147483648
       Left            =   0
       LockBottom      =   False
@@ -83,6 +88,7 @@ Begin WebContainer Sidebar
       ScrollbarsVisible=   0
       Style           =   "0"
       TabOrder        =   1
+      Tag             =   ""
       Top             =   55
       VerticalCenter  =   0
       Visible         =   True
@@ -99,11 +105,13 @@ Begin WebContainer Sidebar
       _VerticalPercent=   0.0
    End
    Begin SidebarItem MachinesOption
+      ActiveImage     =   0
       Cursor          =   0
       Enabled         =   True
       Height          =   55
       HelpTag         =   ""
       HorizontalCenter=   0
+      InactiveImage   =   0
       Index           =   -2147483648
       Left            =   0
       LockBottom      =   False
@@ -117,6 +125,7 @@ Begin WebContainer Sidebar
       ScrollbarsVisible=   0
       Style           =   "-1"
       TabOrder        =   2
+      Tag             =   ""
       Top             =   110
       VerticalCenter  =   0
       Visible         =   True
@@ -133,11 +142,13 @@ Begin WebContainer Sidebar
       _VerticalPercent=   0.0
    End
    Begin SidebarItem CloudServicesOption
+      ActiveImage     =   0
       Cursor          =   0
       Enabled         =   True
       Height          =   55
       HelpTag         =   ""
       HorizontalCenter=   0
+      InactiveImage   =   0
       Index           =   -2147483648
       Left            =   0
       LockBottom      =   False
@@ -151,6 +162,7 @@ Begin WebContainer Sidebar
       ScrollbarsVisible=   0
       Style           =   "-1"
       TabOrder        =   3
+      Tag             =   ""
       Top             =   165
       VerticalCenter  =   0
       Visible         =   True
@@ -167,11 +179,13 @@ Begin WebContainer Sidebar
       _VerticalPercent=   0.0
    End
    Begin SidebarItem SqlDatabasesOption
+      ActiveImage     =   0
       Cursor          =   0
       Enabled         =   True
       Height          =   55
       HelpTag         =   ""
       HorizontalCenter=   0
+      InactiveImage   =   0
       Index           =   -2147483648
       Left            =   0
       LockBottom      =   False
@@ -185,6 +199,7 @@ Begin WebContainer Sidebar
       ScrollbarsVisible=   0
       Style           =   "-1"
       TabOrder        =   4
+      Tag             =   ""
       Top             =   220
       VerticalCenter  =   0
       Visible         =   True
@@ -201,11 +216,13 @@ Begin WebContainer Sidebar
       _VerticalPercent=   0.0
    End
    Begin SidebarItem AutomationOption
+      ActiveImage     =   0
       Cursor          =   0
       Enabled         =   True
       Height          =   55
       HelpTag         =   ""
       HorizontalCenter=   0
+      InactiveImage   =   0
       Index           =   -2147483648
       Left            =   0
       LockBottom      =   False
@@ -219,6 +236,7 @@ Begin WebContainer Sidebar
       ScrollbarsVisible=   0
       Style           =   "-1"
       TabOrder        =   5
+      Tag             =   ""
       Top             =   275
       VerticalCenter  =   0
       Visible         =   True

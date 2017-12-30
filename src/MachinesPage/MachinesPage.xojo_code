@@ -165,7 +165,14 @@ Begin WebPage MachinesPage
       Visible         =   True
       Width           =   150
       ZIndex          =   1
+      _DeclareLineRendered=   False
+      _HorizontalPercent=   0.0
+      _IsEmbedded     =   False
+      _Locked         =   False
       _NeedsRendering =   True
+      _OfficialControl=   False
+      _OpenEventFired =   False
+      _VerticalPercent=   0.0
    End
    Begin WebButton btnStart
       AutoDisable     =   False
@@ -192,7 +199,14 @@ Begin WebPage MachinesPage
       Visible         =   True
       Width           =   150
       ZIndex          =   1
+      _DeclareLineRendered=   False
+      _HorizontalPercent=   0.0
+      _IsEmbedded     =   False
+      _Locked         =   False
       _NeedsRendering =   True
+      _OfficialControl=   False
+      _OpenEventFired =   False
+      _VerticalPercent=   0.0
    End
    Begin WebButton btnRestart
       AutoDisable     =   False
@@ -219,7 +233,14 @@ Begin WebPage MachinesPage
       Visible         =   True
       Width           =   150
       ZIndex          =   1
+      _DeclareLineRendered=   False
+      _HorizontalPercent=   0.0
+      _IsEmbedded     =   False
+      _Locked         =   False
       _NeedsRendering =   True
+      _OfficialControl=   False
+      _OpenEventFired =   False
+      _VerticalPercent=   0.0
    End
    Begin WebButton btnStop
       AutoDisable     =   False
@@ -246,7 +267,14 @@ Begin WebPage MachinesPage
       Visible         =   True
       Width           =   200
       ZIndex          =   1
+      _DeclareLineRendered=   False
+      _HorizontalPercent=   0.0
+      _IsEmbedded     =   False
+      _Locked         =   False
       _NeedsRendering =   True
+      _OfficialControl=   False
+      _OpenEventFired =   False
+      _VerticalPercent=   0.0
    End
    Begin WebListBox mListbox
       AlternateRowColor=   &cEEEEEE00
@@ -282,7 +310,14 @@ Begin WebPage MachinesPage
       Visible         =   True
       Width           =   910
       ZIndex          =   1
+      _DeclareLineRendered=   False
+      _HorizontalPercent=   0.0
+      _IsEmbedded     =   False
+      _Locked         =   False
       _NeedsRendering =   True
+      _OfficialControl=   False
+      _OpenEventFired =   False
+      _VerticalPercent=   0.0
    End
 End
 #tag EndWebPage
@@ -346,6 +381,7 @@ End
 		  Me.ColumnStyle(1) = ListboxCellStyle
 		  Me.ColumnStyle(2) = ListboxCellStyle
 		  Me.ColumnStyle(3) = ListboxCellStyle
+		  Me.ColumnStyle(4) = MachineStatusCellStyle
 		  
 		End Sub
 	#tag EndEvent

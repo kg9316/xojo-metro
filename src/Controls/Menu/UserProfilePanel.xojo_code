@@ -58,7 +58,14 @@ Begin WebContainer UserProfilePanel
       Visible         =   True
       Width           =   48
       ZIndex          =   1
+      _DeclareLineRendered=   False
+      _HorizontalPercent=   0.0
+      _IsEmbedded     =   False
+      _Locked         =   False
       _NeedsRendering =   True
+      _OfficialControl=   False
+      _OpenEventFired =   False
+      _VerticalPercent=   0.0
    End
    Begin WebLabel mLabel
       Cursor          =   1
@@ -87,7 +94,14 @@ Begin WebContainer UserProfilePanel
       Visible         =   True
       Width           =   139
       ZIndex          =   1
+      _DeclareLineRendered=   False
+      _HorizontalPercent=   0.0
+      _IsEmbedded     =   False
+      _Locked         =   False
       _NeedsRendering =   True
+      _OfficialControl=   False
+      _OpenEventFired =   False
+      _VerticalPercent=   0.0
    End
 End
 #tag EndWebPage

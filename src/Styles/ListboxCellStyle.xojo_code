@@ -2,7 +2,7 @@
 WebStyle ListboxCellStyle
 Inherits WebStyle
 	#tag WebStyleStateGroup
-		padding-left=20px
+		padding-left=12px
 	#tag EndWebStyleStateGroup
 	#tag WebStyleStateGroup
 	#tag EndWebStyleStateGroup

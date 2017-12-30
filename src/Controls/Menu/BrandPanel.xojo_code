@@ -57,7 +57,14 @@ Begin WebContainer BrandPanel
       Visible         =   True
       Width           =   146
       ZIndex          =   1
+      _DeclareLineRendered=   False
+      _HorizontalPercent=   0.0
+      _IsEmbedded     =   False
+      _Locked         =   False
       _NeedsRendering =   True
+      _OfficialControl=   False
+      _OpenEventFired =   False
+      _VerticalPercent=   0.0
    End
 End
 #tag EndWebPage
