@@ -20,4 +20,10 @@ Panel | Description
 
 The project contains WebStyle definitions for the common Metro colors.
 
-![Logon Page](docs/MetoColors.png)
+![Colors](docs/MetoColors.png)
+
+### Fonts
+
+The project makes use of the google fonts resource to obtain the Metor text look.
+
+![Fonts](docs/Fonts.png)
