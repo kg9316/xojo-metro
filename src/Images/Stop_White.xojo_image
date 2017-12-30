@@ -1,0 +1,40 @@
+#tag MultiImage
+Image Stop_White
+	#tag ImageRepresentation
+		SaveInfo = APHRcwECAQAAAAHIAAAAAAHIAAIAAAxNYWNpbnRvc2ggSEQAAAAAAAAAAAAAAAAAAADRsjbpSCsAAAQ8rGgRU3RvcF9XaGl0ZV8zMi5wbmcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABD8khNZtXUUAAAAAAAAAAP////8AAAkgAAAAAAAAAAAAAAAAAAAABmltYWdlcwAQAAgAANGyGskAAAARAAgAANZtTzUAAAABABgEPKxoBDyq/AN32qoAC6oGAAmbUAACmDkAAgBUTWFjaW50b3NoIEhEOlVzZXJzOgBqZG9vbGV5OgBEZXZlbG9wbWVudDoAcHJvamVjdHM6AG1ldHJvOgBpbWFnZXM6AFN0b3BfV2hpdGVfMzIucG5nAA4AJAARAFMAdABvAHAAXwBXAGgAaQB0AGUAXwAzADIALgBwAG4AZwAPABoADABNAGEAYwBpAG4AdABvAHMAaAAgAEgARAASAEFVc2Vycy9qZG9vbGV5L0RldmVsb3BtZW50L3Byb2plY3RzL21ldHJvL2ltYWdlcy9TdG9wX1doaXRlXzMyLnBuZwAAEwABLwAAFQACAA7//wAAAAAAAAAA
+		FullPath = /Users/jdooley/Development/projects/metro/images/Stop_White_32.png
+		PartialPath = ..\images\Stop_White_32.png
+		#tag ImageSpecification
+			Comment = 
+			Device = 31
+			HSize = -1.00
+			Orientation = Any
+			Platform = 15
+			PPI = 72
+			VSize = -1.00
+		#tag EndImageSpecification
+	#tag EndImageRepresentation
+	#tag ImageRepresentation
+		#tag ImageSpecification
+			Comment = 
+			Device = 31
+			HSize = -1.00
+			Orientation = Any
+			Platform = 15
+			PPI = 144
+			VSize = -1.00
+		#tag EndImageSpecification
+	#tag EndImageRepresentation
+	#tag ImageRepresentation
+		#tag ImageSpecification
+			Comment = 
+			Device = 31
+			HSize = -1.00
+			Orientation = Any
+			Platform = 15
+			PPI = 216
+			VSize = -1.00
+		#tag EndImageSpecification
+	#tag EndImageRepresentation
+End Image
+#tag EndMultiImage

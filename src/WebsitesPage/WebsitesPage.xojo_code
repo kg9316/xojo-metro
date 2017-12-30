@@ -140,6 +140,178 @@ Begin WebPage WebsitesPage
       _OpenEventFired =   False
       _VerticalPercent=   0.0
    End
+   Begin PictureButton btnCreate
+      Cursor          =   0
+      Enabled         =   True
+      Height          =   34
+      HelpTag         =   ""
+      HorizontalCenter=   0
+      Index           =   -2147483648
+      Left            =   262
+      LockBottom      =   False
+      LockedInPosition=   True
+      LockHorizontal  =   False
+      LockLeft        =   True
+      LockRight       =   False
+      LockTop         =   True
+      LockVertical    =   False
+      Scope           =   2
+      ScrollbarsVisible=   2
+      Style           =   "1502476287"
+      TabOrder        =   3
+      Top             =   158
+      VerticalCenter  =   0
+      Visible         =   True
+      Width           =   141
+      ZIndex          =   1
+      _DeclareLineRendered=   False
+      _HorizontalPercent=   0.0
+      _IsEmbedded     =   False
+      _Locked         =   False
+      _NeedsRendering =   True
+      _OfficialControl=   False
+      _OpenEventFired =   False
+      _ShownEventFired=   False
+      _VerticalPercent=   0.0
+   End
+   Begin PictureButton btnStart
+      Cursor          =   0
+      Enabled         =   True
+      Height          =   34
+      HelpTag         =   ""
+      HorizontalCenter=   0
+      Index           =   -2147483648
+      Left            =   415
+      LockBottom      =   False
+      LockedInPosition=   True
+      LockHorizontal  =   False
+      LockLeft        =   True
+      LockRight       =   False
+      LockTop         =   True
+      LockVertical    =   False
+      Scope           =   2
+      ScrollbarsVisible=   2
+      Style           =   "601673727"
+      TabOrder        =   4
+      Top             =   158
+      VerticalCenter  =   0
+      Visible         =   True
+      Width           =   141
+      ZIndex          =   1
+      _DeclareLineRendered=   False
+      _HorizontalPercent=   0.0
+      _IsEmbedded     =   False
+      _Locked         =   False
+      _NeedsRendering =   True
+      _OfficialControl=   False
+      _OpenEventFired =   False
+      _ShownEventFired=   False
+      _VerticalPercent=   0.0
+   End
+   Begin PictureButton btnRefresh
+      Cursor          =   0
+      Enabled         =   True
+      Height          =   34
+      HelpTag         =   ""
+      HorizontalCenter=   0
+      Index           =   -2147483648
+      Left            =   568
+      LockBottom      =   False
+      LockedInPosition=   True
+      LockHorizontal  =   False
+      LockLeft        =   True
+      LockRight       =   False
+      LockTop         =   True
+      LockVertical    =   False
+      Scope           =   2
+      ScrollbarsVisible=   2
+      Style           =   "810653695"
+      TabOrder        =   5
+      Top             =   158
+      VerticalCenter  =   0
+      Visible         =   True
+      Width           =   141
+      ZIndex          =   1
+      _DeclareLineRendered=   False
+      _HorizontalPercent=   0.0
+      _IsEmbedded     =   False
+      _Locked         =   False
+      _NeedsRendering =   True
+      _OfficialControl=   False
+      _OpenEventFired =   False
+      _ShownEventFired=   False
+      _VerticalPercent=   0.0
+   End
+   Begin PictureButton btnStop
+      Cursor          =   0
+      Enabled         =   True
+      Height          =   34
+      HelpTag         =   ""
+      HorizontalCenter=   0
+      Index           =   -2147483648
+      Left            =   721
+      LockBottom      =   False
+      LockedInPosition=   True
+      LockHorizontal  =   False
+      LockLeft        =   True
+      LockRight       =   False
+      LockTop         =   True
+      LockVertical    =   False
+      Scope           =   2
+      ScrollbarsVisible=   0
+      Style           =   "1148432383"
+      TabOrder        =   6
+      Top             =   158
+      VerticalCenter  =   0
+      Visible         =   True
+      Width           =   200
+      ZIndex          =   1
+      _DeclareLineRendered=   False
+      _HorizontalPercent=   0.0
+      _IsEmbedded     =   False
+      _Locked         =   False
+      _NeedsRendering =   True
+      _OfficialControl=   False
+      _OpenEventFired =   False
+      _ShownEventFired=   False
+      _VerticalPercent=   0.0
+   End
+   Begin WebListBox mList
+      AlternateRowColor=   &cFFFFFF00
+      ColumnCount     =   5
+      ColumnWidths    =   "*"
+      Cursor          =   0
+      Enabled         =   True
+      HasHeading      =   True
+      HeaderStyle     =   "843657215"
+      Height          =   512
+      HelpTag         =   ""
+      HorizontalCenter=   0
+      Index           =   -2147483648
+      InitialValue    =   ""
+      Left            =   262
+      ListIndex       =   -1
+      LockBottom      =   True
+      LockedInPosition=   False
+      LockHorizontal  =   False
+      LockLeft        =   True
+      LockRight       =   True
+      LockTop         =   True
+      LockVertical    =   False
+      MinimumRowHeight=   22
+      Multiline       =   False
+      PrimaryRowColor =   &cFFFFFF00
+      Scope           =   2
+      SelectionStyle  =   "0"
+      Style           =   "1862942719"
+      TabOrder        =   -1
+      Top             =   222
+      VerticalCenter  =   0
+      Visible         =   True
+      Width           =   910
+      ZIndex          =   1
+      _NeedsRendering =   True
+   End
 End
 #tag EndWebPage
 
@@ -168,6 +340,50 @@ End
 		  Case Sidebar.kWebsitesPage
 		    WebsitesPage.Show()
 		  End Select
+		End Sub
+	#tag EndEvent
+#tag EndEvents
+#tag Events btnCreate
+	#tag Event
+		Sub Open()
+		  Me.Caption.Text = "Create..."
+		  Me.Image.Picture = Add_White
+		End Sub
+	#tag EndEvent
+#tag EndEvents
+#tag Events btnStart
+	#tag Event
+		Sub Open()
+		  Me.Caption.Text = "Start"
+		  Me.Image.Picture = Start
+		End Sub
+	#tag EndEvent
+#tag EndEvents
+#tag Events btnRefresh
+	#tag Event
+		Sub Open()
+		  Me.Caption.Text = "Refresh"
+		  Me.Image.Picture = Refresh_White
+		End Sub
+	#tag EndEvent
+#tag EndEvents
+#tag Events btnStop
+	#tag Event
+		Sub Open()
+		  Me.Caption.Text = "Stop All Websites"
+		  Me.Image.Picture = Stop_White
+		End Sub
+	#tag EndEvent
+#tag EndEvents
+#tag Events mList
+	#tag Event
+		Sub Open()
+		  Me.Heading(0) = "ID"
+		  Me.Heading(1) = "Site Name"
+		  Me.Heading(2) = "Folder"
+		  Me.Heading(3) = "URL"
+		  Me.Heading(4) = "Status"
+		  
 		End Sub
 	#tag EndEvent
 #tag EndEvents

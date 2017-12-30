@@ -1,0 +1,40 @@
+#tag MultiImage
+Image Add_White
+	#tag ImageRepresentation
+		SaveInfo = APHRcwECAQAAAAHEAAAAAAHEAAIAAAxNYWNpbnRvc2ggSEQAAAAAAAAAAAAAAAAAAADRsjbpSCsAAAQ8rGgQYWRkXzMyX1doaXRlLnBuZwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABD8eD9ZtXEIAAAAAAAAAAP////8AAAkgAAAAAAAAAAAAAAAAAAAABmltYWdlcwAQAAgAANGyGskAAAARAAgAANZtTjIAAAABABgEPKxoBDyq/AN32qoAC6oGAAmbUAACmDkAAgBTTWFjaW50b3NoIEhEOlVzZXJzOgBqZG9vbGV5OgBEZXZlbG9wbWVudDoAcHJvamVjdHM6AG1ldHJvOgBpbWFnZXM6AGFkZF8zMl9XaGl0ZS5wbmcAAA4AIgAQAGEAZABkAF8AMwAyAF8AVwBoAGkAdABlAC4AcABuAGcADwAaAAwATQBhAGMAaQBuAHQAbwBzAGgAIABIAEQAEgBAVXNlcnMvamRvb2xleS9EZXZlbG9wbWVudC9wcm9qZWN0cy9tZXRyby9pbWFnZXMvYWRkXzMyX1doaXRlLnBuZwATAAEvAAAVAAIADv//AAAAAAAAAAA=
+		FullPath = /Users/jdooley/Development/projects/metro/images/add_32_White.png
+		PartialPath = ..\images\add_32_White.png
+		#tag ImageSpecification
+			Comment = 
+			Device = 31
+			HSize = -1.00
+			Orientation = Any
+			Platform = 15
+			PPI = 72
+			VSize = -1.00
+		#tag EndImageSpecification
+	#tag EndImageRepresentation
+	#tag ImageRepresentation
+		#tag ImageSpecification
+			Comment = 
+			Device = 31
+			HSize = -1.00
+			Orientation = Any
+			Platform = 15
+			PPI = 144
+			VSize = -1.00
+		#tag EndImageSpecification
+	#tag EndImageRepresentation
+	#tag ImageRepresentation
+		#tag ImageSpecification
+			Comment = 
+			Device = 31
+			HSize = -1.00
+			Orientation = Any
+			Platform = 15
+			PPI = 216
+			VSize = -1.00
+		#tag EndImageSpecification
+	#tag EndImageRepresentation
+End Image
+#tag EndMultiImage

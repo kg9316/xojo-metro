@@ -1,0 +1,40 @@
+#tag MultiImage
+Image Start
+	#tag ImageRepresentation
+		SaveInfo = APHRcwECAQAAAAG0AAAAAAG0AAIAAAxNYWNpbnRvc2ggSEQAAAAAAAAAAAAAAAAAAADRsjbpSCsAAAQ8rGgMc3RhcnRfMzIucG5nAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABD8ge9ZtW4wAAAAAAAAAAP////8AAAkgAAAAAAAAAAAAAAAAAAAABmltYWdlcwAQAAgAANGyGskAAAARAAgAANZtTXwAAAABABgEPKxoBDyq/AN32qoAC6oGAAmbUAACmDkAAgBPTWFjaW50b3NoIEhEOlVzZXJzOgBqZG9vbGV5OgBEZXZlbG9wbWVudDoAcHJvamVjdHM6AG1ldHJvOgBpbWFnZXM6AHN0YXJ0XzMyLnBuZwAADgAaAAwAcwB0AGEAcgB0AF8AMwAyAC4AcABuAGcADwAaAAwATQBhAGMAaQBuAHQAbwBzAGgAIABIAEQAEgA8VXNlcnMvamRvb2xleS9EZXZlbG9wbWVudC9wcm9qZWN0cy9tZXRyby9pbWFnZXMvc3RhcnRfMzIucG5nABMAAS8AABUAAgAO//8AAAAAAAAAAA==
+		FullPath = /Users/jdooley/Development/projects/metro/images/start_32.png
+		PartialPath = ..\images\start_32.png
+		#tag ImageSpecification
+			Comment = 
+			Device = 31
+			HSize = -1.00
+			Orientation = Any
+			Platform = 15
+			PPI = 72
+			VSize = -1.00
+		#tag EndImageSpecification
+	#tag EndImageRepresentation
+	#tag ImageRepresentation
+		#tag ImageSpecification
+			Comment = 
+			Device = 31
+			HSize = -1.00
+			Orientation = Any
+			Platform = 15
+			PPI = 144
+			VSize = -1.00
+		#tag EndImageSpecification
+	#tag EndImageRepresentation
+	#tag ImageRepresentation
+		#tag ImageSpecification
+			Comment = 
+			Device = 31
+			HSize = -1.00
+			Orientation = Any
+			Platform = 15
+			PPI = 216
+			VSize = -1.00
+		#tag EndImageSpecification
+	#tag EndImageRepresentation
+End Image
+#tag EndMultiImage
