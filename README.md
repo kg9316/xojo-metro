@@ -16,6 +16,12 @@ Panel | Description
 ![Logon Panel](docs/Logon-User-Field.png) | When hovering over the field the border changes from dark grey to black. When one clicks into the field a button appears on the right hand side to enable the user to clear the input field.
 ![Logon Panel](docs/Logon-Password-Field.png) | As with the user input field, when one hovers over the field the dark grey border changes to black.  When one clicks into the field a button appears to enable one to access the user passwords and another to allow one to see the entered password.
 
+### Cloud Services Page
+
+This page demonstrates a number of message dialogs and information panels.
+
+![Websites Page](docs/CloudServicesPage.png)
+
 ### Websites Page
 
 This page demonstrates another way to format the standard WebListbox and the use of images to implement checkbox columns.

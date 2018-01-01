@@ -121,7 +121,7 @@ Begin WebPage MachinesPage
       LockTop         =   True
       LockVertical    =   False
       Multiline       =   False
-      Scope           =   0
+      Scope           =   2
       Style           =   "1829988351"
       TabOrder        =   2
       Text            =   "Virtual Machines"

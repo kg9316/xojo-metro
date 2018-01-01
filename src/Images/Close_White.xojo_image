@@ -1,0 +1,39 @@
+#tag MultiImage
+Image Close_White
+	#tag ImageRepresentation
+		SaveInfo = APHRcwECAQAAAAGeAAAAAAGeAAIAAAVMYUNpZQAAAAAAAAAAAAAAAAAAAAAAAAAAAADR3uAUSCsAAABAR48SY2xvc2VfMzJfd2hpdGUucG5nAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEB+zNZwMHIAAAAAAAAAAP////8AAAkAAAAAAAAAAAAAAAAAAAAAB0FydHdvcmsAABAACAAA0d7D9AAAABEACAAA1nAiYgAAAAEADABAR48AQCd0AEAh+gACAEFMYUNpZTpGdXNpb24tTWFjaGluZXM6AFdpbmRvd3MtU2hhcmU6AEFydHdvcms6AGNsb3NlXzMyX3doaXRlLnBuZwAADgAmABIAYwBsAG8AcwBlAF8AMwAyAF8AdwBoAGkAdABlAC4AcABuAGcADwAMAAUATABhAEMAaQBlABIAOS9GdXNpb24tTWFjaGluZXMvV2luZG93cy1TaGFyZS9BcnR3b3JrL2Nsb3NlXzMyX3doaXRlLnBuZwAAEwAOL1ZvbHVtZXMvTGFDaWX//wAAAAAAAAAA
+		FullPath = /Volumes/LaCie/Fusion-Machines/Windows-Share/Artwork/close_32_white.png
+		#tag ImageSpecification
+			Comment = 
+			Device = 31
+			HSize = -1.00
+			Orientation = Any
+			Platform = 15
+			PPI = 72
+			VSize = -1.00
+		#tag EndImageSpecification
+	#tag EndImageRepresentation
+	#tag ImageRepresentation
+		#tag ImageSpecification
+			Comment = 
+			Device = 31
+			HSize = -1.00
+			Orientation = Any
+			Platform = 15
+			PPI = 144
+			VSize = -1.00
+		#tag EndImageSpecification
+	#tag EndImageRepresentation
+	#tag ImageRepresentation
+		#tag ImageSpecification
+			Comment = 
+			Device = 31
+			HSize = -1.00
+			Orientation = Any
+			Platform = 15
+			PPI = 216
+			VSize = -1.00
+		#tag EndImageSpecification
+	#tag EndImageRepresentation
+End Image
+#tag EndMultiImage

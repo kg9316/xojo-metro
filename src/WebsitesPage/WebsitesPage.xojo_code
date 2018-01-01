@@ -121,7 +121,7 @@ Begin WebPage WebsitesPage
       LockTop         =   True
       LockVertical    =   False
       Multiline       =   False
-      Scope           =   0
+      Scope           =   2
       Style           =   "1829988351"
       TabOrder        =   2
       Text            =   "Websites"
@@ -279,7 +279,7 @@ Begin WebPage WebsitesPage
    Begin WebListBox mList
       AlternateRowColor=   &cFFFFFF00
       ColumnCount     =   5
-      ColumnWidths    =   "*"
+      ColumnWidths    =   "60,250,300,*,100"
       Cursor          =   0
       Enabled         =   True
       HasHeading      =   True
@@ -302,7 +302,7 @@ Begin WebPage WebsitesPage
       Multiline       =   False
       PrimaryRowColor =   &cFFFFFF00
       Scope           =   2
-      SelectionStyle  =   "0"
+      SelectionStyle  =   "1154822143"
       Style           =   "1862942719"
       TabOrder        =   -1
       Top             =   222
@@ -383,6 +383,30 @@ End
 		  Me.Heading(2) = "Folder"
 		  Me.Heading(3) = "URL"
 		  Me.Heading(4) = "Status"
+		  
+		  Me.AddRow("0001", "  Time & Money", "C:\Websites\Time And Money", "  https://time_money.my_company_websites.com")
+		  Me.AddRow("0002", "  Time & Money", "C:\Websites\Time And Money", "  https://time_money.my_company_websites.com")
+		  Me.AddRow("0003", "  Time & Money", "C:\Websites\Time And Money", "  https://time_money.my_company_websites.com")
+		  Me.AddRow("0004", "  Time & Money", "C:\Websites\Time And Money", "  https://time_money.my_company_websites.com")
+		  Me.AddRow("0005", "  Time & Money", "C:\Websites\Time And Money", "  https://time_money.my_company_websites.com")
+		  Me.AddRow("0006", "  Time & Money", "C:\Websites\Time And Money", "  https://time_money.my_company_websites.com")
+		  Me.AddRow("0007", "  Time & Money", "C:\Websites\Time And Money", "  https://time_money.my_company_websites.com")
+		  Me.AddRow("0008", "  Time & Money", "C:\Websites\Time And Money", "  https://time_money.my_company_websites.com")
+		  
+		  Me.CellPicture(0, 4) = CheckBox_Empty
+		  Me.CellPicture(1, 4) = CheckBox_Checked
+		  Me.CellPicture(2, 4) = CheckBox_Empty
+		  Me.CellPicture(3, 4) = CheckBox_Empty
+		  Me.CellPicture(4, 4) = CheckBox_Empty
+		  Me.CellPicture(5, 4) = CheckBox_Checked
+		  Me.CellPicture(6, 4) = CheckBox_Checked
+		  Me.CellPicture(7, 4) = CheckBox_Checked
+		  
+		  Me.ColumnStyle(0) = WebsiteListboxCellStyle
+		  Me.ColumnStyle(1) = WebsiteListboxCellStyle
+		  Me.ColumnStyle(2) = WebsiteListboxCellStyle
+		  Me.ColumnStyle(3) = WebsiteListboxCellStyle
+		  Me.ColumnStyle(4) = WebsiteListboxCheckboxCellStyle
 		  
 		End Sub
 	#tag EndEvent

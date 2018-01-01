@@ -1,14 +1,11 @@
 #tag WebStyle
-WebStyle WebsiteListboxHeaderStyle
+WebStyle WebsiteListboxCellStyle
 Inherits WebStyle
 	#tag WebStyleStateGroup
-		text-align=center
 		text-size=18px
 		text-color=1D1D1DFF
-		misc-background=solid FFFFFFFF
-		border-bottom=3px solid 585858FF
-		border-right=1px solid 585858FF
-		border-top=1px solid 585858FF
+		border-bottom=1px solid 1D1D1DFF
+		border-right=1px solid 1D1D1DFF
 	#tag EndWebStyleStateGroup
 	#tag WebStyleStateGroup
 	#tag EndWebStyleStateGroup
@@ -16,6 +13,6 @@ Inherits WebStyle
 	#tag EndWebStyleStateGroup
 	#tag WebStyleStateGroup
 	#tag EndWebStyleStateGroup
-End WebStyle WebsiteListboxHeaderStyle
+End WebStyle WebsiteListboxCellStyle
 #tag EndWebStyle
 

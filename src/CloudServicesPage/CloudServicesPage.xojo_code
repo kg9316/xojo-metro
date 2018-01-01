@@ -3,7 +3,7 @@ Begin WebPage CloudServicesPage
    Compatibility   =   ""
    Cursor          =   0
    Enabled         =   True
-   Height          =   754
+   Height          =   952
    HelpTag         =   ""
    HorizontalCenter=   0
    ImplicitInstance=   True
@@ -73,7 +73,7 @@ Begin WebPage CloudServicesPage
    Begin Sidebar mSidebar
       Cursor          =   0
       Enabled         =   True
-      Height          =   699
+      Height          =   897
       HelpTag         =   ""
       HorizontalCenter=   0
       Index           =   -2147483648
@@ -121,7 +121,7 @@ Begin WebPage CloudServicesPage
       LockTop         =   True
       LockVertical    =   False
       Multiline       =   False
-      Scope           =   0
+      Scope           =   2
       Style           =   "1829988351"
       TabOrder        =   2
       Text            =   "Cloud Services"
@@ -138,6 +138,402 @@ Begin WebPage CloudServicesPage
       _NeedsRendering =   True
       _OfficialControl=   False
       _OpenEventFired =   False
+      _VerticalPercent=   0.0
+   End
+   Begin WebButton btnSuccess
+      AutoDisable     =   False
+      Caption         =   "Success"
+      Cursor          =   0
+      Enabled         =   True
+      Height          =   30
+      HelpTag         =   ""
+      HorizontalCenter=   0
+      Index           =   -2147483648
+      Left            =   262
+      LockBottom      =   False
+      LockedInPosition=   False
+      LockHorizontal  =   False
+      LockLeft        =   True
+      LockRight       =   False
+      LockTop         =   True
+      LockVertical    =   False
+      Scope           =   2
+      Style           =   "1571520511"
+      TabOrder        =   3
+      Top             =   146
+      VerticalCenter  =   0
+      Visible         =   True
+      Width           =   150
+      ZIndex          =   1
+      _NeedsRendering =   True
+   End
+   Begin SuccessDialog SuccessDlg
+      Cursor          =   0
+      Enabled         =   True
+      Height          =   150
+      HelpTag         =   ""
+      HorizontalCenter=   0
+      Index           =   -2147483648
+      Left            =   40
+      LockBottom      =   False
+      LockedInPosition=   False
+      LockHorizontal  =   False
+      LockLeft        =   True
+      LockRight       =   False
+      LockTop         =   True
+      LockVertical    =   False
+      MinHeight       =   0
+      MinWidth        =   0
+      Resizable       =   True
+      Scope           =   2
+      Style           =   "-1"
+      TabOrder        =   -1
+      Title           =   "Untitled"
+      Top             =   40
+      Type            =   3
+      VerticalCenter  =   0
+      Visible         =   True
+      Width           =   545
+      ZIndex          =   1
+      _DeclareLineRendered=   False
+      _HorizontalPercent=   0.0
+      _IsEmbedded     =   False
+      _Locked         =   False
+      _NeedsRendering =   True
+      _OfficialControl=   False
+      _OpenEventFired =   False
+      _ShownEventFired=   False
+      _VerticalPercent=   0.0
+   End
+   Begin WebButton btnWarning
+      AutoDisable     =   False
+      Caption         =   "Warning"
+      Cursor          =   0
+      Enabled         =   True
+      Height          =   30
+      HelpTag         =   ""
+      HorizontalCenter=   0
+      Index           =   -2147483648
+      Left            =   424
+      LockBottom      =   False
+      LockedInPosition=   False
+      LockHorizontal  =   False
+      LockLeft        =   True
+      LockRight       =   False
+      LockTop         =   True
+      LockVertical    =   False
+      Scope           =   2
+      Style           =   "612771839"
+      TabOrder        =   3
+      Top             =   146
+      VerticalCenter  =   0
+      Visible         =   True
+      Width           =   150
+      ZIndex          =   1
+      _NeedsRendering =   True
+   End
+   Begin WarningDialog WarningDlg
+      Cursor          =   0
+      Enabled         =   True
+      Height          =   150
+      HelpTag         =   ""
+      HorizontalCenter=   0
+      Index           =   -2147483648
+      Left            =   80
+      LockBottom      =   False
+      LockedInPosition=   False
+      LockHorizontal  =   False
+      LockLeft        =   True
+      LockRight       =   False
+      LockTop         =   True
+      LockVertical    =   False
+      MinHeight       =   0
+      MinWidth        =   0
+      Resizable       =   True
+      Scope           =   0
+      Style           =   "-1"
+      TabOrder        =   -1
+      Title           =   "Untitled"
+      Top             =   80
+      Type            =   3
+      VerticalCenter  =   0
+      Visible         =   True
+      Width           =   545
+      ZIndex          =   1
+      _DeclareLineRendered=   False
+      _HorizontalPercent=   0.0
+      _IsEmbedded     =   False
+      _Locked         =   False
+      _NeedsRendering =   True
+      _OfficialControl=   False
+      _OpenEventFired =   False
+      _ShownEventFired=   False
+      _VerticalPercent=   0.0
+   End
+   Begin WebButton btnAlert
+      AutoDisable     =   False
+      Caption         =   "Alert"
+      Cursor          =   0
+      Enabled         =   True
+      Height          =   30
+      HelpTag         =   ""
+      HorizontalCenter=   0
+      Index           =   -2147483648
+      Left            =   586
+      LockBottom      =   False
+      LockedInPosition=   False
+      LockHorizontal  =   False
+      LockLeft        =   True
+      LockRight       =   False
+      LockTop         =   True
+      LockVertical    =   False
+      Scope           =   2
+      Style           =   "145874943"
+      TabOrder        =   3
+      Top             =   146
+      VerticalCenter  =   0
+      Visible         =   True
+      Width           =   150
+      ZIndex          =   1
+      _NeedsRendering =   True
+   End
+   Begin WebButton btnInfo
+      AutoDisable     =   False
+      Caption         =   "Info"
+      Cursor          =   0
+      Enabled         =   True
+      Height          =   30
+      HelpTag         =   ""
+      HorizontalCenter=   0
+      Index           =   -2147483648
+      Left            =   748
+      LockBottom      =   False
+      LockedInPosition=   False
+      LockHorizontal  =   False
+      LockLeft        =   True
+      LockRight       =   False
+      LockTop         =   True
+      LockVertical    =   False
+      Scope           =   2
+      Style           =   "1504069631"
+      TabOrder        =   3
+      Top             =   146
+      VerticalCenter  =   0
+      Visible         =   True
+      Width           =   150
+      ZIndex          =   1
+      _NeedsRendering =   True
+   End
+   Begin AlertDialog AlertDlg
+      Cursor          =   0
+      Enabled         =   True
+      Height          =   150
+      HelpTag         =   ""
+      HorizontalCenter=   0
+      Index           =   -2147483648
+      Left            =   140
+      LockBottom      =   False
+      LockedInPosition=   False
+      LockHorizontal  =   False
+      LockLeft        =   True
+      LockRight       =   False
+      LockTop         =   True
+      LockVertical    =   False
+      MinHeight       =   0
+      MinWidth        =   0
+      Resizable       =   True
+      Scope           =   2
+      Style           =   "-1"
+      TabOrder        =   -1
+      Title           =   "Untitled"
+      Top             =   140
+      Type            =   3
+      VerticalCenter  =   0
+      Visible         =   True
+      Width           =   545
+      ZIndex          =   1
+      _DeclareLineRendered=   False
+      _HorizontalPercent=   0.0
+      _IsEmbedded     =   False
+      _Locked         =   False
+      _NeedsRendering =   True
+      _OfficialControl=   False
+      _OpenEventFired =   False
+      _ShownEventFired=   False
+      _VerticalPercent=   0.0
+   End
+   Begin InfoDialog InfoDlg
+      Cursor          =   0
+      Enabled         =   True
+      Height          =   150
+      HelpTag         =   ""
+      HorizontalCenter=   0
+      Index           =   -2147483648
+      Left            =   160
+      LockBottom      =   False
+      LockedInPosition=   False
+      LockHorizontal  =   False
+      LockLeft        =   True
+      LockRight       =   False
+      LockTop         =   True
+      LockVertical    =   False
+      MinHeight       =   0
+      MinWidth        =   0
+      Resizable       =   False
+      Scope           =   2
+      Style           =   "-1"
+      TabOrder        =   -1
+      Title           =   "Untitled"
+      Top             =   160
+      Type            =   3
+      VerticalCenter  =   0
+      Visible         =   True
+      Width           =   545
+      ZIndex          =   1
+      _DeclareLineRendered=   False
+      _HorizontalPercent=   0.0
+      _IsEmbedded     =   False
+      _Locked         =   False
+      _NeedsRendering =   True
+      _OfficialControl=   False
+      _OpenEventFired =   False
+      _ShownEventFired=   False
+      _VerticalPercent=   0.0
+   End
+   Begin SuccessMessage SuccessMsg
+      Cursor          =   0
+      Enabled         =   True
+      Height          =   150
+      HelpTag         =   ""
+      HorizontalCenter=   0
+      Index           =   -2147483648
+      Left            =   262
+      LockBottom      =   False
+      LockedInPosition=   False
+      LockHorizontal  =   False
+      LockLeft        =   True
+      LockRight       =   False
+      LockTop         =   True
+      LockVertical    =   False
+      Scope           =   2
+      ScrollbarsVisible=   0
+      Style           =   "306423807"
+      TabOrder        =   4
+      Top             =   205
+      VerticalCenter  =   0
+      Visible         =   True
+      Width           =   910
+      ZIndex          =   1
+      _DeclareLineRendered=   False
+      _HorizontalPercent=   0.0
+      _IsEmbedded     =   False
+      _Locked         =   False
+      _NeedsRendering =   True
+      _OfficialControl=   False
+      _OpenEventFired =   False
+      _ShownEventFired=   False
+      _VerticalPercent=   0.0
+   End
+   Begin InfoMessage InfoMsg
+      Cursor          =   0
+      Enabled         =   True
+      Height          =   150
+      HelpTag         =   ""
+      HorizontalCenter=   0
+      Index           =   -2147483648
+      Left            =   262
+      LockBottom      =   False
+      LockedInPosition=   False
+      LockHorizontal  =   False
+      LockLeft        =   True
+      LockRight       =   False
+      LockTop         =   True
+      LockVertical    =   False
+      Scope           =   2
+      ScrollbarsVisible=   0
+      Style           =   "805957631"
+      TabOrder        =   5
+      Top             =   367
+      VerticalCenter  =   0
+      Visible         =   True
+      Width           =   910
+      ZIndex          =   1
+      _DeclareLineRendered=   False
+      _HorizontalPercent=   0.0
+      _IsEmbedded     =   False
+      _Locked         =   False
+      _NeedsRendering =   True
+      _OfficialControl=   False
+      _OpenEventFired =   False
+      _ShownEventFired=   False
+      _VerticalPercent=   0.0
+   End
+   Begin Warning Warning1
+      Cursor          =   0
+      Enabled         =   True
+      Height          =   150
+      HelpTag         =   ""
+      HorizontalCenter=   0
+      Index           =   -2147483648
+      Left            =   262
+      LockBottom      =   False
+      LockedInPosition=   False
+      LockHorizontal  =   False
+      LockLeft        =   True
+      LockRight       =   False
+      LockTop         =   True
+      LockVertical    =   False
+      Scope           =   2
+      ScrollbarsVisible=   0
+      Style           =   "1023543295"
+      TabOrder        =   6
+      Top             =   529
+      VerticalCenter  =   0
+      Visible         =   True
+      Width           =   910
+      ZIndex          =   1
+      _DeclareLineRendered=   False
+      _HorizontalPercent=   0.0
+      _IsEmbedded     =   False
+      _Locked         =   False
+      _NeedsRendering =   True
+      _OfficialControl=   False
+      _OpenEventFired =   False
+      _ShownEventFired=   False
+      _VerticalPercent=   0.0
+   End
+   Begin AlertMessage AlertMessage1
+      Cursor          =   0
+      Enabled         =   True
+      Height          =   150
+      HelpTag         =   ""
+      HorizontalCenter=   0
+      Index           =   -2147483648
+      Left            =   262
+      LockBottom      =   False
+      LockedInPosition=   False
+      LockHorizontal  =   False
+      LockLeft        =   True
+      LockRight       =   False
+      LockTop         =   True
+      LockVertical    =   False
+      Scope           =   2
+      ScrollbarsVisible=   0
+      Style           =   "435034111"
+      TabOrder        =   7
+      Top             =   691
+      VerticalCenter  =   0
+      Visible         =   True
+      Width           =   910
+      ZIndex          =   1
+      _DeclareLineRendered=   False
+      _HorizontalPercent=   0.0
+      _IsEmbedded     =   False
+      _Locked         =   False
+      _NeedsRendering =   True
+      _OfficialControl=   False
+      _OpenEventFired =   False
+      _ShownEventFired=   False
       _VerticalPercent=   0.0
    End
 End
@@ -168,6 +564,34 @@ End
 		  Case Sidebar.kWebsitesPage
 		    WebsitesPage.Show()
 		  End Select
+		End Sub
+	#tag EndEvent
+#tag EndEvents
+#tag Events btnSuccess
+	#tag Event
+		Sub Action()
+		  SuccessDlg.Show()
+		End Sub
+	#tag EndEvent
+#tag EndEvents
+#tag Events btnWarning
+	#tag Event
+		Sub Action()
+		  WarningDlg.Show()
+		End Sub
+	#tag EndEvent
+#tag EndEvents
+#tag Events btnAlert
+	#tag Event
+		Sub Action()
+		  AlertDlg.Show()
+		End Sub
+	#tag EndEvent
+#tag EndEvents
+#tag Events btnInfo
+	#tag Event
+		Sub Action()
+		  InfoDlg.Show()
 		End Sub
 	#tag EndEvent
 #tag EndEvents
