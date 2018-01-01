@@ -70,6 +70,13 @@ End
 #tag EndWebPage
 
 #tag WindowCode
+	#tag Event
+		Sub Open()
+		  Me.Style = BrandPanelStyle
+		End Sub
+	#tag EndEvent
+
+
 #tag EndWindowCode
 
 #tag ViewBehavior

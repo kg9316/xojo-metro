@@ -24,7 +24,7 @@ Begin WebPage MainPage
    Top             =   0
    VerticalCenter  =   0
    Visible         =   True
-   Width           =   1192
+   Width           =   1374
    ZIndex          =   1
    _DeclareLineRendered=   False
    _HorizontalPercent=   0.0
@@ -58,7 +58,7 @@ Begin WebPage MainPage
       Top             =   0
       VerticalCenter  =   0
       Visible         =   True
-      Width           =   1192
+      Width           =   1374
       ZIndex          =   1
       _DeclareLineRendered=   False
       _HorizontalPercent=   0.0
@@ -121,7 +121,7 @@ Begin WebPage MainPage
       LockTop         =   True
       LockVertical    =   False
       Multiline       =   False
-      Scope           =   0
+      Scope           =   2
       Style           =   "1829988351"
       TabOrder        =   2
       Text            =   "All Items"
@@ -129,9 +129,119 @@ Begin WebPage MainPage
       Top             =   67
       VerticalCenter  =   0
       Visible         =   True
-      Width           =   910
+      Width           =   1092
+      ZIndex          =   1
+      _DeclareLineRendered=   False
+      _HorizontalPercent=   0.0
+      _IsEmbedded     =   False
+      _Locked         =   False
+      _NeedsRendering =   True
+      _OfficialControl=   False
+      _OpenEventFired =   False
+      _VerticalPercent=   0.0
+   End
+   Begin WebImageView mChart
+      AlignHorizontal =   0
+      AlignVertical   =   0
+      Cursor          =   0
+      Enabled         =   True
+      Height          =   391
+      HelpTag         =   ""
+      HorizontalCenter=   0
+      Index           =   -2147483648
+      Left            =   262
+      LockBottom      =   False
+      LockedInPosition=   False
+      LockHorizontal  =   False
+      LockLeft        =   True
+      LockRight       =   False
+      LockTop         =   True
+      LockVertical    =   False
+      Picture         =   2060265471
+      ProtectImage    =   True
+      Scope           =   2
+      Style           =   "-1"
+      TabOrder        =   -1
+      Top             =   146
+      URL             =   ""
+      VerticalCenter  =   0
+      Visible         =   True
+      Width           =   530
       ZIndex          =   1
       _NeedsRendering =   True
+   End
+   Begin WebImageView mPie
+      AlignHorizontal =   0
+      AlignVertical   =   0
+      Cursor          =   0
+      Enabled         =   True
+      Height          =   391
+      HelpTag         =   ""
+      HorizontalCenter=   0
+      Index           =   -2147483648
+      Left            =   804
+      LockBottom      =   False
+      LockedInPosition=   False
+      LockHorizontal  =   False
+      LockLeft        =   True
+      LockRight       =   False
+      LockTop         =   True
+      LockVertical    =   False
+      Picture         =   1836738559
+      ProtectImage    =   True
+      Scope           =   2
+      Style           =   "-1"
+      TabOrder        =   -1
+      Top             =   146
+      URL             =   ""
+      VerticalCenter  =   0
+      Visible         =   True
+      Width           =   519
+      ZIndex          =   1
+      _NeedsRendering =   True
+   End
+   Begin WebListBox mList
+      AlternateRowColor=   &cFFFFFF00
+      ColumnCount     =   5
+      ColumnWidths    =   "60,250,300,*,100"
+      Cursor          =   0
+      Enabled         =   True
+      HasHeading      =   True
+      HeaderStyle     =   "843657215"
+      Height          =   166
+      HelpTag         =   ""
+      HorizontalCenter=   0
+      Index           =   -2147483648
+      InitialValue    =   ""
+      Left            =   262
+      ListIndex       =   -1
+      LockBottom      =   True
+      LockedInPosition=   False
+      LockHorizontal  =   False
+      LockLeft        =   True
+      LockRight       =   True
+      LockTop         =   True
+      LockVertical    =   False
+      MinimumRowHeight=   22
+      Multiline       =   False
+      PrimaryRowColor =   &cFFFFFF00
+      Scope           =   2
+      SelectionStyle  =   "1154822143"
+      Style           =   "1862942719"
+      TabOrder        =   -1
+      Top             =   568
+      VerticalCenter  =   0
+      Visible         =   True
+      Width           =   1092
+      ZIndex          =   1
+      _DeclareLineRendered=   "False"
+      _HorizontalPercent=   "0.0"
+      _IsEmbedded     =   "False"
+      _Locked         =   "False"
+      _NeedsRendering =   True
+      _OfficialControl=   "False"
+      _OpenEventFired =   "False"
+      _VerticalPercent=   "0.0"
    End
 End
 #tag EndWebPage
@@ -162,6 +272,36 @@ End
 		  Case Sidebar.kWebsitesPage
 		    WebsitesPage.Show()
 		  End Select
+		End Sub
+	#tag EndEvent
+#tag EndEvents
+#tag Events mList
+	#tag Event
+		Sub Open()
+		  Me.Heading(0) = "ID"
+		  Me.Heading(1) = "Site Name"
+		  Me.Heading(2) = "Folder"
+		  Me.Heading(3) = "URL"
+		  Me.Heading(4) = "Status"
+		  
+		  Me.AddRow("0001", "  Time & Money", "C:\Websites\Time And Money", "  https://time_money.my_company_websites.com")
+		  Me.AddRow("0002", "  Time & Money", "C:\Websites\Time And Money", "  https://time_money.my_company_websites.com")
+		  Me.AddRow("0003", "  Time & Money", "C:\Websites\Time And Money", "  https://time_money.my_company_websites.com")
+		  Me.AddRow("0004", "  Time & Money", "C:\Websites\Time And Money", "  https://time_money.my_company_websites.com")
+		  Me.AddRow("0005", "  Time & Money", "C:\Websites\Time And Money", "  https://time_money.my_company_websites.com")
+		  
+		  Me.CellPicture(0, 4) = CheckBox_Empty
+		  Me.CellPicture(1, 4) = CheckBox_Checked
+		  Me.CellPicture(2, 4) = CheckBox_Empty
+		  Me.CellPicture(3, 4) = CheckBox_Empty
+		  Me.CellPicture(4, 4) = CheckBox_Empty
+		  
+		  Me.ColumnStyle(0) = WebsiteListboxCellStyle
+		  Me.ColumnStyle(1) = WebsiteListboxCellStyle
+		  Me.ColumnStyle(2) = WebsiteListboxCellStyle
+		  Me.ColumnStyle(3) = WebsiteListboxCellStyle
+		  Me.ColumnStyle(4) = WebsiteListboxCheckboxCellStyle
+		  
 		End Sub
 	#tag EndEvent
 #tag EndEvents
