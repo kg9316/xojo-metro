@@ -16,6 +16,10 @@ Panel | Description
 ![Logon Panel](docs/Logon-User-Field.png) | When hovering over the field the border changes from dark grey to black. When one clicks into the field a button appears on the right hand side to enable the user to clear the input field.
 ![Logon Panel](docs/Logon-Password-Field.png) | As with the user input field, when one hovers over the field the dark grey border changes to black.  When one clicks into the field a button appears to enable one to access the user passwords and another to allow one to see the entered password.
 
+#### Main Page
+
+![Logon Page](docs/HomePage.png)
+
 ### Cloud Services Page
 
 This page demonstrates a number of message dialogs and information panels.
@@ -39,3 +43,9 @@ The project contains WebStyle definitions for the common Metro colors.
 The project makes use of the google fonts resource to obtain the Metor text look.
 
 ![Fonts](docs/Fonts.png)
+
+### Images and Icons
+
+All of the images and icons used in this demonstration were created using Syncfunsion's Metro Studio, which is freely available and can be downloaded at:
+https://www.syncfusion.com/downloads/metrostudio
+
