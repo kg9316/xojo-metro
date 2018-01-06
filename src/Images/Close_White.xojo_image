@@ -1,38 +1,39 @@
 #tag MultiImage
 Image Close_White
 	#tag ImageRepresentation
-		SaveInfo = APHRcwECAQAAAAGeAAAAAAGeAAIAAAVMYUNpZQAAAAAAAAAAAAAAAAAAAAAAAAAAAADR3uAUSCsAAABAR48SY2xvc2VfMzJfd2hpdGUucG5nAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEB+zNZwMHIAAAAAAAAAAP////8AAAkAAAAAAAAAAAAAAAAAAAAAB0FydHdvcmsAABAACAAA0d7D9AAAABEACAAA1nAiYgAAAAEADABAR48AQCd0AEAh+gACAEFMYUNpZTpGdXNpb24tTWFjaGluZXM6AFdpbmRvd3MtU2hhcmU6AEFydHdvcms6AGNsb3NlXzMyX3doaXRlLnBuZwAADgAmABIAYwBsAG8AcwBlAF8AMwAyAF8AdwBoAGkAdABlAC4AcABuAGcADwAMAAUATABhAEMAaQBlABIAOS9GdXNpb24tTWFjaGluZXMvV2luZG93cy1TaGFyZS9BcnR3b3JrL2Nsb3NlXzMyX3doaXRlLnBuZwAAEwAOL1ZvbHVtZXMvTGFDaWX//wAAAAAAAAAA
-		FullPath = /Volumes/LaCie/Fusion-Machines/Windows-Share/Artwork/close_32_white.png
+		SaveInfo = APHRcwECAQAAAAG0AAAAAAG0AAIAAAxNYWNpbnRvc2ggSEQAAAAAAAAAAAAAAAAAAADRsjbpSCsAAAQ8rGgMQ2xvc2VfMjQucG5nAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABESwGtZ2u/0AAAAAAAAAAP////8AAAkgAAAAAAAAAAAAAAAAAAAABmltYWdlcwAQAAgAANGyGskAAAARAAgAANZ2re0AAAABABgEPKxoBDyq/AN32qoAC6oGAAmbUAACmDkAAgBPTWFjaW50b3NoIEhEOlVzZXJzOgBqZG9vbGV5OgBEZXZlbG9wbWVudDoAcHJvamVjdHM6AG1ldHJvOgBpbWFnZXM6AENsb3NlXzI0LnBuZwAADgAaAAwAQwBsAG8AcwBlAF8AMgA0AC4AcABuAGcADwAaAAwATQBhAGMAaQBuAHQAbwBzAGgAIABIAEQAEgA8VXNlcnMvamRvb2xleS9EZXZlbG9wbWVudC9wcm9qZWN0cy9tZXRyby9pbWFnZXMvQ2xvc2VfMjQucG5nABMAAS8AABUAAgAO//8AAAAAAAAAAA==
+		FullPath = /Users/jdooley/Development/projects/metro/images/Close_24.png
+		PartialPath = ..\images\Close_24.png
 		#tag ImageSpecification
 			Comment = 
 			Device = 31
-			HSize = -1.00
+			HSize = 32.00
 			Orientation = Any
 			Platform = 15
 			PPI = 72
-			VSize = -1.00
+			VSize = 32.00
 		#tag EndImageSpecification
 	#tag EndImageRepresentation
 	#tag ImageRepresentation
 		#tag ImageSpecification
 			Comment = 
 			Device = 31
-			HSize = -1.00
+			HSize = 32.00
 			Orientation = Any
 			Platform = 15
 			PPI = 144
-			VSize = -1.00
+			VSize = 32.00
 		#tag EndImageSpecification
 	#tag EndImageRepresentation
 	#tag ImageRepresentation
 		#tag ImageSpecification
 			Comment = 
 			Device = 31
-			HSize = -1.00
+			HSize = 32.00
 			Orientation = Any
 			Platform = 15
 			PPI = 216
-			VSize = -1.00
+			VSize = 32.00
 		#tag EndImageSpecification
 	#tag EndImageRepresentation
 End Image

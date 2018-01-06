@@ -62,7 +62,14 @@ Begin WebDialog SuccessDialog
       Visible         =   True
       Width           =   464
       ZIndex          =   1
+      _DeclareLineRendered=   False
+      _HorizontalPercent=   0.0
+      _IsEmbedded     =   False
+      _Locked         =   False
       _NeedsRendering =   True
+      _OfficialControl=   False
+      _OpenEventFired =   False
+      _VerticalPercent=   0.0
    End
    Begin ImageButton btnClose
       AlignHorizontal =   0
@@ -92,7 +99,14 @@ Begin WebDialog SuccessDialog
       Visible         =   True
       Width           =   32
       ZIndex          =   1
+      _DeclareLineRendered=   False
+      _HorizontalPercent=   0.0
+      _IsEmbedded     =   False
+      _Locked         =   False
       _NeedsRendering =   True
+      _OfficialControl=   False
+      _OpenEventFired =   False
+      _VerticalPercent=   0.0
    End
    Begin WebLabel Message
       Cursor          =   1
@@ -121,7 +135,14 @@ Begin WebDialog SuccessDialog
       Visible         =   True
       Width           =   505
       ZIndex          =   1
+      _DeclareLineRendered=   False
+      _HorizontalPercent=   0.0
+      _IsEmbedded     =   False
+      _Locked         =   False
       _NeedsRendering =   True
+      _OfficialControl=   False
+      _OpenEventFired =   False
+      _VerticalPercent=   0.0
    End
 End
 #tag EndWebPage
